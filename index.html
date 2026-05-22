@@ -1,390 +1,1139 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bharat Impex — Premium Brass Bathroom Fittings | Since 1972 | New Delhi</title>
-<meta name="description" content="Bharat Impex — ISO 9001 certified manufacturer & exporter of premium brass bathroom fittings, faucets, taps, mixers & sanitary ware. Exporting to 40+ countries since 1972. New Delhi, India.">
-<link rel="preload" as="image" href="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200&q=72&fm=webp&auto=format&fit=crop" fetchpriority="high">
+<title>Bharat Impex — Premium Brass Bathroom Fittings | Since 1972</title>
+<meta name="description" content="Bharat Impex — ISO 9001 certified manufacturer & exporter of premium brass bathroom fittings. Since 1972, New Delhi.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Syne:wght@400;500;600;700;800&family=Syne+Mono&display=swap" rel="stylesheet">
 <style>
 :root {
-  --ink:        #0e0f11;
-  --ink-80:     #1c1e22;
-  --ink-60:     #2a2d33;
-  --steel:      #8a9099;
-  --steel-lt:   #c4c9d4;
-  --fog:        #f2f1ed;
-  --paper:      #faf9f6;
-  --white:      #ffffff;
-  --gold:       #c9a84c;
-  --gold-dim:   #a07830;
-  --gold-glow:  rgba(201,168,76,0.18);
-  --blue:       #1d4e82;
-  --blue-lt:    #3a82c4;
-  --blue-glow:  rgba(58,130,196,0.15);
+  --cream:      #F5F0E8;
+  --cream-dk:   #EDE6D6;
+  --cream-dkr:  #E2D9C6;
+  --espresso:   #1A1209;
+  --espresso-2: #2E2415;
+  --espresso-3: #3D3020;
+  --brass:      #B8914A;
+  --brass-lt:   #D4AF6A;
+  --brass-dk:   #8A6830;
+  --brass-glow: rgba(184,145,74,0.12);
+  --smoke:      #7A7060;
+  --smoke-lt:   #A89E8E;
   --wa:         #25D366;
   --wa-dk:      #128C7E;
-  --shadow-sm:  0 2px 12px rgba(0,0,0,0.08);
-  --shadow-md:  0 8px 40px rgba(0,0,0,0.14);
-  --shadow-lg:  0 20px 80px rgba(0,0,0,0.22);
-  --r:          2px;
+  --shadow-sm:  0 2px 16px rgba(26,18,9,0.08);
+  --shadow-md:  0 8px 48px rgba(26,18,9,0.14);
+  --shadow-lg:  0 24px 80px rgba(26,18,9,0.22);
 }
-*{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;font-size:16px;}
-body{font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink);overflow-x:hidden;}
-img{display:block;max-width:100%;}
-a{text-decoration:none;color:inherit;}
 
-/* ─── UTILITY ─── */
-.tag{font-family:'DM Mono',monospace;font-size:0.62rem;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:0.6rem;margin-bottom:1rem;}
-.tag::before{content:'';display:block;width:1.8rem;height:1px;background:var(--gold);}
-.section-title{font-family:'Playfair Display',serif;font-size:clamp(2rem,3.5vw,3.2rem);font-weight:600;line-height:1.1;color:var(--ink);}
-.section-title em{font-style:italic;color:var(--blue);}
-.section-title.light{color:var(--white);}
-.section-title.light em{color:var(--gold);}
-.lead{font-size:1rem;font-weight:300;line-height:1.8;color:var(--steel);max-width:560px;}
-.lead.light{color:var(--steel-lt);}
-.btn{display:inline-flex;align-items:center;gap:0.6rem;padding:0.85rem 2rem;font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;border:none;transition:all 0.25s;border-radius:var(--r);}
-.btn-gold{background:var(--gold);color:var(--ink);}
-.btn-gold:hover{background:#dbb85a;transform:translateY(-1px);box-shadow:0 8px 32px rgba(201,168,76,0.38);}
-.btn-ghost{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,0.35);}
-.btn-ghost:hover{background:rgba(255,255,255,0.1);border-color:var(--white);}
-.btn-dark{background:var(--ink);color:var(--white);}
-.btn-dark:hover{background:var(--ink-60);}
-.btn-wa{background:var(--wa);color:var(--white);}
-.btn-wa:hover{background:var(--wa-dk);transform:translateY(-1px);box-shadow:0 8px 24px rgba(37,211,102,0.4);}
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; font-size:16px; }
+body { font-family:'Syne', sans-serif; background:var(--cream); color:var(--espresso); overflow-x:hidden; }
+img { display:block; max-width:100%; }
+a { text-decoration:none; color:inherit; }
+button { font-family:'Syne', sans-serif; }
 
-/* ─── NAV ─── */
-#nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:1.1rem 4rem;display:flex;align-items:center;justify-content:space-between;background:rgba(14,15,17,0.88);backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid rgba(255,255,255,0.07);transition:padding 0.3s,background 0.3s;}
-#nav.scrolled{padding:0.7rem 4rem;background:rgba(14,15,17,0.97);}
-.nav-brand{display:flex;align-items:center;gap:0.9rem;}
-.nav-brand-logo{width:44px;height:44px;background:transparent;display:flex;align-items:center;justify-content:center;border-radius:var(--r);}
-.nav-brand-logo svg{width:44px;height:44px;}
-.nav-brand-text{display:flex;flex-direction:column;}
-.nav-brand-name{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:var(--white);letter-spacing:0.05em;line-height:1;}
-.nav-brand-sub{font-family:'DM Mono',monospace;font-size:0.55rem;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;margin-top:1px;}
-.nav-links{display:flex;align-items:center;gap:2rem;list-style:none;}
-.nav-links a{font-size:0.78rem;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:var(--steel-lt);transition:color 0.2s;}
-.nav-links a:hover{color:var(--white);}
-.nav-actions{display:flex;align-items:center;gap:0.8rem;}
-.nav-wa{display:flex;align-items:center;gap:0.5rem;padding:0.5rem 1rem;background:var(--wa);color:var(--white);border-radius:var(--r);font-size:0.72rem;font-weight:600;letter-spacing:0.06em;transition:all 0.2s;}
-.nav-wa:hover{background:var(--wa-dk);}
-.nav-enquiry{display:flex;align-items:center;gap:0.5rem;padding:0.5rem 1.1rem;background:transparent;border:1px solid rgba(201,168,76,0.5);color:var(--gold);border-radius:var(--r);font-size:0.72rem;font-weight:600;letter-spacing:0.06em;cursor:pointer;transition:all 0.2s;}
-.nav-enquiry:hover{background:var(--gold-glow);border-color:var(--gold);}
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;}
-.hamburger span{display:block;width:22px;height:2px;background:var(--steel-lt);transition:all 0.3s;}
-
-/* ─── HERO SLIDER ─── */
-#hero{position:relative;height:100vh;min-height:600px;overflow:hidden;}
-.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.1s cubic-bezier(0.4,0,0.2,1);display:flex;align-items:center;}
-.slide.active{opacity:1;z-index:2;}
-.slide.prev{opacity:0;z-index:1;}
-.slide-bg{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.06);transition:transform 7s ease;}
-.slide.active .slide-bg{transform:scale(1);}
-.slide-overlay{position:absolute;inset:0;}
-.slide-content{position:relative;z-index:3;padding:0 4rem;max-width:760px;margin-top:4rem;}
-.slide-tag{font-family:'DM Mono',monospace;font-size:0.62rem;font-weight:500;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:0.6rem;margin-bottom:1.2rem;opacity:0;transform:translateY(12px);transition:all 0.6s 0.3s;}
-.slide.active .slide-tag{opacity:1;transform:translateY(0);}
-.slide-tag::before{content:'';display:block;width:1.8rem;height:1px;background:var(--gold);}
-.slide-h1{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,5.5vw,5rem);font-weight:600;line-height:1.05;color:var(--white);margin-bottom:1.2rem;opacity:0;transform:translateY(20px);transition:all 0.7s 0.45s;}
-.slide.active .slide-h1{opacity:1;transform:translateY(0);}
-.slide-h1 em{font-style:italic;color:var(--gold);}
-.slide-p{font-size:1rem;font-weight:300;line-height:1.75;color:rgba(255,255,255,0.72);max-width:480px;margin-bottom:2.2rem;opacity:0;transform:translateY(16px);transition:all 0.7s 0.6s;}
-.slide.active .slide-p{opacity:1;transform:translateY(0);}
-.slide-btns{display:flex;gap:0.8rem;flex-wrap:wrap;opacity:0;transform:translateY(12px);transition:all 0.7s 0.75s;}
-.slide.active .slide-btns{opacity:1;transform:translateY(0);}
-
-/* Slider controls */
-.slider-controls{position:absolute;bottom:2.5rem;left:4rem;z-index:10;display:flex;align-items:center;gap:1.2rem;}
-.slider-dots{display:flex;gap:0.5rem;}
-.sdot{width:24px;height:3px;background:rgba(255,255,255,0.3);cursor:pointer;transition:all 0.3s;border-radius:2px;}
-.sdot.active{background:var(--gold);width:40px;}
-.slider-arrows{display:flex;gap:0.5rem;margin-left:1rem;}
-.sarrow{width:38px;height:38px;border:1px solid rgba(255,255,255,0.25);background:rgba(255,255,255,0.08);color:var(--white);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all 0.2s;backdrop-filter:blur(8px);}
-.sarrow:hover{background:rgba(201,168,76,0.3);border-color:var(--gold);}
-.slide-counter{position:absolute;bottom:2.8rem;right:4rem;z-index:10;font-family:'DM Mono',monospace;font-size:0.68rem;color:rgba(255,255,255,0.4);letter-spacing:0.1em;}
-
-/* ─── STATS BAND ─── */
-#stats{background:var(--ink);padding:2rem 4rem;display:flex;justify-content:space-around;align-items:center;gap:2rem;border-bottom:1px solid rgba(255,255,255,0.06);}
-.stat-item{display:flex;flex-direction:column;align-items:center;gap:0.2rem;}
-.stat-num{font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:700;color:var(--gold);line-height:1;}
-.stat-label{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--steel);}
-.stat-div{width:1px;height:48px;background:rgba(255,255,255,0.08);}
-
-/* ─── ABOUT ─── */
-#about{padding:7rem 4rem;background:var(--paper);display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;}
-.about-imgs{position:relative;height:520px;}
-.aimg-main{position:absolute;left:0;top:0;width:74%;height:82%;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-lg);}
-.aimg-main img{width:100%;height:100%;object-fit:cover;transition:transform 8s ease;}
-.aimg-main:hover img{transform:scale(1.04);}
-.aimg-accent{position:absolute;right:0;bottom:0;width:50%;height:54%;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-md);border:4px solid var(--paper);}
-.aimg-accent img{width:100%;height:100%;object-fit:cover;}
-.year-badge{position:absolute;right:55px;top:2.5rem;width:88px;height:88px;background:var(--gold);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:5;border-radius:var(--r);box-shadow:0 8px 24px rgba(201,168,76,0.45);}
-.year-badge .yr{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:700;color:var(--ink);line-height:1;}
-.year-badge .since{font-family:'DM Mono',monospace;font-size:0.5rem;letter-spacing:0.18em;text-transform:uppercase;color:rgba(14,15,17,0.65);margin-top:2px;}
-.about-text{display:flex;flex-direction:column;gap:1.6rem;}
-.about-text .section-title{margin-bottom:0.4rem;}
-.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:0.4rem;}
-.feature-item{display:flex;align-items:flex-start;gap:0.8rem;padding:0.9rem;background:white;border-radius:var(--r);border:1px solid rgba(0,0,0,0.06);transition:all 0.25s;}
-.feature-item:hover{border-color:var(--gold);box-shadow:var(--shadow-sm);}
-.fi-icon{width:34px;height:34px;background:var(--gold-glow);border-radius:var(--r);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.fi-text{font-size:0.82rem;font-weight:500;color:var(--ink-60);line-height:1.4;}
-.fi-text span{display:block;font-size:0.7rem;color:var(--steel);font-weight:400;margin-top:1px;}
-
-/* ─── PRODUCTS SLIDER ─── */
-#products{padding:7rem 4rem;background:var(--ink);}
-.products-top{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:3rem;gap:2rem;}
-.products-top .tag::before{background:var(--gold);}
-.product-slider-wrap{position:relative;overflow:hidden;}
-.product-track{display:flex;gap:1.5px;transition:transform 0.55s cubic-bezier(0.4,0,0.2,1);}
-.product-card{flex:0 0 calc(33.333% - 1px);min-width:calc(33.333% - 1px);position:relative;height:400px;overflow:hidden;cursor:pointer;background:var(--ink-60);}
-.product-card img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s cubic-bezier(0.4,0,0.2,1);}
-.product-card:hover img{transform:scale(1.07);}
-.prod-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,12,0.92) 0%,rgba(10,10,12,0.2) 50%,transparent 100%);transition:opacity 0.3s;}
-.product-card:hover .prod-overlay{opacity:0.85;}
-.prod-info{position:absolute;bottom:0;left:0;right:0;padding:1.6rem 1.4rem 1.4rem;}
-.prod-cat{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);margin-bottom:0.4rem;}
-.prod-name{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:600;color:var(--white);line-height:1.2;}
-.prod-desc{font-size:0.78rem;color:rgba(255,255,255,0.55);margin-top:0.35rem;line-height:1.5;}
-.prod-cta{display:inline-flex;align-items:center;gap:0.4rem;margin-top:0.9rem;font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);opacity:0;transform:translateY(6px);transition:all 0.3s;}
-.product-card:hover .prod-cta{opacity:1;transform:translateY(0);}
-.prod-wa-btn{display:none;position:absolute;top:1rem;right:1rem;background:var(--wa);color:white;border:none;border-radius:50%;width:40px;height:40px;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px rgba(37,211,102,0.4);transition:transform 0.2s;}
-.product-card:hover .prod-wa-btn{display:flex;}
-.prod-wa-btn:hover{transform:scale(1.1);}
-.slider-nav{display:flex;align-items:center;gap:0.6rem;margin-top:2rem;justify-content:flex-end;}
-.snav-btn{width:44px;height:44px;border:1px solid rgba(255,255,255,0.15);background:transparent;color:var(--white);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all 0.2s;border-radius:var(--r);}
-.snav-btn:hover{background:var(--gold);border-color:var(--gold);color:var(--ink);}
-
-/* ─── BRANDS MARQUEE ─── */
-#brands{padding:2.5rem 0;background:white;border-top:1px solid rgba(0,0,0,0.06);border-bottom:1px solid rgba(0,0,0,0.06);overflow:hidden;}
-.brands-label{text-align:center;font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--steel);margin-bottom:1.5rem;}
-.marquee-wrap{overflow:hidden;}
-.marquee-track{display:flex;gap:3rem;animation:marquee 22s linear infinite;width:max-content;}
-.marquee-track:hover{animation-play-state:paused;}
-.brand-tag{font-family:'Playfair Display',serif;font-size:0.9rem;font-weight:600;color:var(--steel);letter-spacing:0.05em;white-space:nowrap;padding:0 1rem;display:flex;align-items:center;gap:0.8rem;transition:color 0.2s;}
-.brand-tag:hover{color:var(--gold);}
-.brand-dot{width:4px;height:4px;background:var(--gold);border-radius:50%;}
-@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
-/* ─── GLOBAL PRESENCE ─── */
-#global{padding:7rem 4rem;background:var(--ink-80);}
-.global-grid{display:grid;grid-template-columns:1fr 380px;gap:4rem;align-items:start;margin-top:3rem;}
-.world-map{position:relative;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:var(--r);overflow:hidden;}
-.world-map svg{width:100%;height:auto;display:block;}
-.map-dot{fill:var(--gold);opacity:0.9;cursor:pointer;transition:all 0.2s;}
-.map-dot:hover{opacity:1;r:5;}
-.map-ring{fill:none;stroke:var(--gold);stroke-width:1.5;opacity:0;animation:mapRing 2.5s ease-out infinite;}
-@keyframes mapRing{0%{r:4;opacity:0.8}100%{r:14;opacity:0}}
-.countries-panel{display:flex;flex-direction:column;gap:0.8rem;}
-.region-card{padding:1.1rem 1.4rem;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-left:3px solid var(--blue);border-radius:var(--r);transition:all 0.25s;cursor:pointer;}
-.region-card:hover{background:rgba(58,130,196,0.12);border-left-color:var(--gold);}
-.region-name{font-family:'DM Mono',monospace;font-size:0.66rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--steel-lt);margin-bottom:0.3rem;}
-.region-countries{font-size:0.8rem;color:var(--steel);line-height:1.5;}
-.export-badge{margin-top:1.5rem;padding:1rem 1.4rem;background:linear-gradient(135deg,rgba(201,168,76,0.15),rgba(201,168,76,0.05));border:1px solid rgba(201,168,76,0.25);border-radius:var(--r);text-align:center;}
-.export-badge-num{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:700;color:var(--gold);line-height:1;}
-.export-badge-label{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--steel);margin-top:4px;}
-
-/* ─── QUALITY ─── */
-#quality{padding:7rem 4rem;background:var(--fog);}
-.quality-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:3rem;}
-.q-card{padding:2rem 1.6rem;background:white;border-radius:var(--r);border:1px solid rgba(0,0,0,0.06);transition:all 0.3s;}
-.q-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:var(--shadow-md);}
-.q-num{font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:700;color:var(--gold);line-height:1;margin-bottom:0.8rem;}
-.q-title{font-size:0.85rem;font-weight:700;letter-spacing:0.04em;color:var(--ink);margin-bottom:0.5rem;text-transform:uppercase;}
-.q-desc{font-size:0.8rem;color:var(--steel);line-height:1.65;}
-.cert-strip{margin-top:2.5rem;padding:1.5rem 2rem;background:var(--ink);border-radius:var(--r);display:flex;align-items:center;gap:2rem;flex-wrap:wrap;}
-.cert-strip-label{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--steel);white-space:nowrap;}
-.cert-pills{display:flex;gap:0.8rem;flex-wrap:wrap;}
-.cert-pill{padding:0.35rem 0.9rem;border:1px solid rgba(201,168,76,0.35);border-radius:var(--r);font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;color:var(--gold);}
-
-/* ─── PROCESS ─── */
-#process{padding:7rem 4rem;background:var(--paper);}
-.process-steps{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin-top:3.5rem;position:relative;}
-.process-steps::before{content:'';position:absolute;top:28px;left:8%;right:8%;height:1px;background:linear-gradient(to right,transparent,var(--blue),var(--blue),transparent);z-index:0;}
-.proc-step{display:flex;flex-direction:column;align-items:center;gap:0.9rem;text-align:center;position:relative;z-index:1;padding:0 0.3rem;}
-.proc-dot{width:56px;height:56px;background:white;border:2px solid var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:var(--blue);transition:all 0.3s;box-shadow:var(--shadow-sm);}
-.proc-step:hover .proc-dot{background:var(--blue);color:white;border-color:var(--blue);transform:scale(1.1);}
-.proc-label{font-size:0.72rem;font-weight:600;color:var(--ink-60);line-height:1.35;text-align:center;letter-spacing:0.03em;}
-.proc-sub{font-size:0.65rem;color:var(--steel);}
-
-/* ─── TESTIMONIALS ─── */
-#testimonials{padding:7rem 4rem;background:var(--ink);}
-.testi-slider{position:relative;overflow:hidden;margin-top:2.5rem;}
-.testi-track{display:flex;transition:transform 0.55s cubic-bezier(0.4,0,0.2,1);}
-.testi-card{flex:0 0 calc(33.333%);padding:2rem;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:var(--r);margin:0 0.6rem;transition:border-color 0.3s;backdrop-filter:blur(10px);}
-.testi-card:hover{border-color:rgba(201,168,76,0.3);}
-.stars{color:var(--gold);font-size:0.9rem;letter-spacing:0.1em;margin-bottom:1rem;}
-.testi-text{font-family:'Playfair Display',serif;font-size:0.98rem;font-style:italic;font-weight:400;color:var(--steel-lt);line-height:1.75;margin-bottom:1.4rem;}
-.testi-meta{display:flex;align-items:center;gap:0.8rem;}
-.testi-avatar{width:38px;height:38px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'DM Mono',monospace;font-size:0.68rem;font-weight:500;color:white;flex-shrink:0;}
-.testi-name{font-size:0.82rem;font-weight:600;color:var(--white);}
-.testi-loc{font-size:0.72rem;color:var(--steel);}
-.testi-nav{display:flex;gap:0.5rem;margin-top:2rem;justify-content:center;}
-.tnav-dot{width:28px;height:3px;background:rgba(255,255,255,0.2);cursor:pointer;transition:all 0.3s;border-radius:2px;}
-.tnav-dot.active{background:var(--gold);width:44px;}
-
-/* ─── CATALOGUE SECTION ─── */
-#catalogue{padding:5rem 4rem;background:linear-gradient(135deg,var(--blue) 0%,#0f2d50 100%);position:relative;overflow:hidden;}
-#catalogue::before{content:'';position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:rgba(255,255,255,0.04);}
-#catalogue::after{content:'';position:absolute;bottom:-80px;left:10%;width:400px;height:400px;border-radius:50%;background:rgba(201,168,76,0.06);}
-.cat-inner{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:3rem;flex-wrap:wrap;}
-.cat-text h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3vw,2.6rem);font-weight:600;color:white;line-height:1.2;margin-bottom:0.8rem;}
-.cat-text p{font-size:0.9rem;color:rgba(255,255,255,0.65);line-height:1.7;max-width:450px;}
-.cat-actions{display:flex;gap:1rem;flex-wrap:wrap;flex-shrink:0;}
-.cat-btn-primary{display:flex;align-items:center;gap:0.6rem;padding:0.95rem 2rem;background:var(--gold);color:var(--ink);border:none;border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;transition:all 0.25s;}
-.cat-btn-primary:hover{background:#dbb85a;transform:translateY(-1px);box-shadow:0 8px 28px rgba(201,168,76,0.5);}
-.cat-btn-wa{display:flex;align-items:center;gap:0.6rem;padding:0.95rem 2rem;background:var(--wa);color:white;border:none;border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;transition:all 0.25s;}
-.cat-btn-wa:hover{background:var(--wa-dk);transform:translateY(-1px);box-shadow:0 8px 24px rgba(37,211,102,0.4);}
-
-/* ─── INQUIRY ─── */
-#inquiry{padding:7rem 4rem;background:var(--paper);display:grid;grid-template-columns:1fr 1.2fr;gap:5rem;align-items:start;}
-.inq-left{}
-.inq-left .section-title{margin-bottom:1rem;}
-.contact-cards{display:flex;flex-direction:column;gap:0.8rem;margin-top:2rem;}
-.contact-card{display:flex;align-items:flex-start;gap:0.9rem;padding:1rem 1.2rem;background:white;border-radius:var(--r);border:1px solid rgba(0,0,0,0.07);transition:all 0.25s;}
-.contact-card:hover{border-color:var(--gold);box-shadow:var(--shadow-sm);}
-.cc-icon{width:36px;height:36px;background:var(--gold-glow);border-radius:var(--r);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.cc-label{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--steel);margin-bottom:2px;}
-.cc-val{font-size:0.83rem;font-weight:500;color:var(--ink-60);line-height:1.45;}
-.cc-val a{color:var(--blue);transition:color 0.2s;}
-.cc-val a:hover{color:var(--gold);}
-.inq-right{}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
-.form-group{display:flex;flex-direction:column;gap:0.4rem;}
-.form-group.full{grid-column:1/-1;}
-.form-label{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--steel);}
-.form-input,.form-select,.form-textarea{padding:0.85rem 1rem;background:white;border:1.5px solid rgba(0,0,0,0.1);border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:0.88rem;color:var(--ink);outline:none;transition:border-color 0.2s;-webkit-appearance:none;width:100%;}
-.form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--gold);}
-.form-select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center;padding-right:2.5rem;cursor:pointer;}
-.form-textarea{resize:vertical;min-height:110px;}
-.form-actions{grid-column:1/-1;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:0.5rem;}
-.form-submit{padding:0.95rem 2.2rem;background:var(--ink);color:white;border:none;border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;transition:all 0.25s;}
-.form-submit:hover{background:var(--blue);transform:translateY(-1px);box-shadow:var(--shadow-md);}
-.form-wa-btn{display:flex;align-items:center;gap:0.6rem;padding:0.95rem 1.8rem;background:var(--wa);color:white;border:none;border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:0.82rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;transition:all 0.25s;text-decoration:none;}
-.form-wa-btn:hover{background:var(--wa-dk);}
-.form-note{grid-column:1/-1;font-size:0.75rem;color:var(--steel);line-height:1.5;padding:0.8rem 1rem;background:var(--blue-glow);border-left:3px solid var(--blue);border-radius:var(--r);}
-
-/* ─── FOOTER ─── */
-footer{background:var(--ink);border-top:1px solid rgba(255,255,255,0.06);}
-.footer-top{padding:4rem 4rem 2.5rem;display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:3rem;border-bottom:1px solid rgba(255,255,255,0.07);}
-.footer-brand{}
-.fb-logo{display:flex;align-items:center;gap:0.8rem;margin-bottom:1rem;}
-.fb-logo-icon{width:44px;height:44px;background:transparent;display:flex;align-items:center;justify-content:center;border-radius:var(--r);}
-.fb-name{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:var(--white);}
-.fb-tagline{font-family:'DM Mono',monospace;font-size:0.55rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);}
-.footer-brand p{font-size:0.8rem;line-height:1.7;color:var(--steel);max-width:270px;margin-bottom:1.2rem;}
-.footer-certs{display:flex;gap:0.6rem;flex-wrap:wrap;}
-.footer-cert-pill{padding:0.3rem 0.7rem;border:1px solid rgba(201,168,76,0.3);border-radius:var(--r);font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.1em;color:var(--gold);}
-.footer-col h4{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--steel);margin-bottom:1.2rem;}
-.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:0.6rem;}
-.footer-col a{font-size:0.8rem;color:var(--steel);transition:color 0.2s;line-height:1.4;}
-.footer-col a:hover{color:var(--gold);}
-.footer-contact-item{font-size:0.8rem;color:var(--steel);line-height:1.55;margin-bottom:0.6rem;}
-.footer-contact-item strong{color:var(--steel-lt);display:block;font-size:0.7rem;letter-spacing:0.06em;text-transform:uppercase;margin-bottom:2px;}
-.footer-bottom{padding:1.5rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
-.footer-copy{font-size:0.73rem;color:var(--steel);}
-.footer-links{display:flex;gap:1.5rem;}
-.footer-links a{font-size:0.73rem;color:var(--steel);transition:color 0.2s;}
-.footer-links a:hover{color:var(--gold);}
-.footer-social{display:flex;gap:0.6rem;}
-.soc-btn{width:34px;height:34px;border:1px solid rgba(255,255,255,0.1);border-radius:var(--r);display:flex;align-items:center;justify-content:center;color:var(--steel);font-size:0.65rem;font-weight:700;transition:all 0.2s;font-family:'DM Mono',monospace;}
-.soc-btn:hover{border-color:var(--gold);color:var(--gold);}
-.soc-btn.wa-soc{background:var(--wa);border-color:var(--wa);color:white;}
-.soc-btn.wa-soc:hover{background:var(--wa-dk);border-color:var(--wa-dk);}
-
-/* ─── FLOAT WA ─── */
-.float-wa{position:fixed;bottom:2rem;right:2rem;z-index:999;width:58px;height:58px;background:var(--wa);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(37,211,102,0.45);text-decoration:none;animation:waPulse 3s ease infinite;transition:transform 0.2s;}
-.float-wa:hover{transform:scale(1.12);}
-@keyframes waPulse{0%,100%{box-shadow:0 4px 24px rgba(37,211,102,0.45)}50%{box-shadow:0 4px 36px rgba(37,211,102,0.7),0 0 0 10px rgba(37,211,102,0.08)}}
-.float-wa-tooltip{position:absolute;right:70px;top:50%;transform:translateY(-50%);background:var(--ink);color:white;padding:0.4rem 0.9rem;border-radius:var(--r);font-size:0.72rem;font-weight:600;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity 0.2s;}
-.float-wa:hover .float-wa-tooltip{opacity:1;}
-
-/* ─── REVEAL ─── */
-.rv{opacity:0;transform:translateY(24px);transition:opacity 0.75s,transform 0.75s;}
-.rv.on{opacity:1;transform:translateY(0);}
-.rv-l{opacity:0;transform:translateX(-24px);transition:opacity 0.75s,transform 0.75s;}
-.rv-l.on{opacity:1;transform:translateX(0);}
-.rv-r{opacity:0;transform:translateX(24px);transition:opacity 0.75s,transform 0.75s;}
-.rv-r.on{opacity:1;transform:translateX(0);}
-
-/* ─── MOBILE MENU ─── */
-.mobile-menu{position:fixed;top:0;right:0;bottom:0;width:280px;background:var(--ink);z-index:600;transform:translateX(100%);transition:transform 0.35s cubic-bezier(0.4,0,0.2,1);padding:5rem 2rem 2rem;display:flex;flex-direction:column;gap:1.5rem;}
-.mobile-menu.open{transform:translateX(0);}
-.mobile-menu a{font-size:1rem;font-weight:500;color:var(--steel-lt);padding:0.6rem 0;border-bottom:1px solid rgba(255,255,255,0.06);}
-.mobile-menu a:hover{color:var(--gold);}
-.menu-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:599;opacity:0;pointer-events:none;transition:opacity 0.3s;}
-.menu-overlay.open{opacity:1;pointer-events:all;}
-
-/* ─── RESPONSIVE ─── */
-@media(max-width:1100px){
-  #nav{padding:0.75rem 1.2rem;}
-  #nav.scrolled{padding:0.5rem 1.2rem;}
-  .nav-links{display:none;}
-  .hamburger{display:flex;}
-  .nav-brand-logo{width:36px;height:36px;}
-  .nav-brand-logo svg{width:36px;height:36px;}
-  .nav-brand-name{font-size:0.9rem;}
-  .nav-brand-sub{display:none;}
-  .nav-wa{padding:0.45rem 0.75rem;font-size:0;line-height:0;}
-  .nav-wa svg{width:18px;height:18px;flex-shrink:0;}
-  .nav-enquiry{padding:0.45rem 0.9rem;font-size:0.68rem;}
-  .nav-actions{gap:0.5rem;}
-  #hero .slide-content{padding:0 2rem;}
-  #stats{padding:1.5rem 2rem;gap:1rem;}
-  .stat-div{display:none;}
-  #about{grid-template-columns:1fr;padding:5rem 2rem;gap:3rem;}
-  .about-imgs{height:320px;}
-  #products{padding:5rem 2rem;}
-  .products-top{flex-direction:column;align-items:flex-start;}
-  .product-card{flex:0 0 calc(50% - 1px);min-width:calc(50% - 1px);}
-  #global{padding:5rem 2rem;}
-  .global-grid{grid-template-columns:1fr;gap:2.5rem;}
-  #quality{padding:5rem 2rem;}
-  .quality-grid{grid-template-columns:repeat(2,1fr);}
-  #process{padding:5rem 2rem;}
-  .process-steps{grid-template-columns:repeat(3,1fr);gap:2rem;}
-  .process-steps::before{display:none;}
-  #testimonials{padding:5rem 2rem;}
-  .testi-card{flex:0 0 calc(100%);}
-  #catalogue{padding:4rem 2rem;}
-  #inquiry{grid-template-columns:1fr;padding:5rem 2rem;gap:3rem;}
-  footer .footer-top{grid-template-columns:1fr 1fr;padding:3rem 2rem;}
-  footer .footer-bottom{padding:1.2rem 2rem;}
-  .slider-controls,.slide-counter{left:2rem;right:2rem;}
+/* ── NOISE TEXTURE OVERLAY ── */
+body::before {
+  content:'';
+  position:fixed;
+  inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events:none;
+  z-index:9999;
+  opacity:1;
 }
-@media(max-width:640px){
-  #stats{flex-wrap:wrap;justify-content:center;}
-  .stat-item{flex:0 0 calc(50% - 1rem);}
-  .product-card{flex:0 0 calc(100%);min-width:100%;}
-  .quality-grid{grid-template-columns:1fr;}
-  .process-steps{grid-template-columns:repeat(2,1fr);}
-  .testi-card{padding:1.4rem;}
-  footer .footer-top{grid-template-columns:1fr;}
-  .form-grid{grid-template-columns:1fr;}
-  .form-group.full{grid-column:1;}
-  .cat-inner{flex-direction:column;}
-  .footer-bottom{flex-direction:column;align-items:flex-start;}
+
+/* ── UTILITY ── */
+.eyebrow {
+  font-family:'Syne Mono', monospace;
+  font-size:0.62rem;
+  letter-spacing:0.28em;
+  text-transform:uppercase;
+  color:var(--brass);
+  display:inline-flex;
+  align-items:center;
+  gap:0.8rem;
+  margin-bottom:1.2rem;
+}
+.eyebrow::before { content:''; display:block; width:2rem; height:1px; background:var(--brass); }
+
+.display-title {
+  font-family:'Cormorant Garamond', serif;
+  font-size:clamp(2.6rem, 4.5vw, 5rem);
+  font-weight:500;
+  line-height:1.05;
+  letter-spacing:-0.01em;
+  color:var(--espresso);
+}
+.display-title em { font-style:italic; color:var(--brass); }
+.display-title.on-dark { color:var(--cream); }
+.display-title.on-dark em { color:var(--brass-lt); }
+
+.body-text {
+  font-size:0.9rem;
+  font-weight:400;
+  line-height:1.85;
+  color:var(--smoke);
+  max-width:520px;
+}
+.body-text.on-dark { color:var(--smoke-lt); }
+
+/* ── BUTTONS ── */
+.btn {
+  display:inline-flex;
+  align-items:center;
+  gap:0.6rem;
+  padding:0.9rem 2.2rem;
+  font-family:'Syne', sans-serif;
+  font-size:0.72rem;
+  font-weight:600;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  cursor:pointer;
+  border:none;
+  transition:all 0.28s cubic-bezier(0.4,0,0.2,1);
+  position:relative;
+  overflow:hidden;
+}
+.btn::before {
+  content:'';
+  position:absolute;
+  inset:0;
+  background:rgba(255,255,255,0.08);
+  transform:translateX(-101%);
+  transition:transform 0.3s;
+}
+.btn:hover::before { transform:translateX(0); }
+
+.btn-brass { background:var(--brass); color:var(--cream); }
+.btn-brass:hover { background:var(--brass-lt); box-shadow:0 8px 32px rgba(184,145,74,0.35); }
+.btn-outline-dark { background:transparent; color:var(--espresso); border:1.5px solid var(--espresso); }
+.btn-outline-dark:hover { background:var(--espresso); color:var(--cream); }
+.btn-outline-cream { background:transparent; color:var(--cream); border:1.5px solid rgba(245,240,232,0.4); }
+.btn-outline-cream:hover { background:rgba(245,240,232,0.1); border-color:var(--cream); }
+.btn-wa { background:var(--wa); color:#fff; }
+.btn-wa:hover { background:var(--wa-dk); box-shadow:0 6px 24px rgba(37,211,102,0.35); }
+.btn-espresso { background:var(--espresso); color:var(--cream); }
+.btn-espresso:hover { background:var(--espresso-2); }
+
+/* ── NAV ── */
+#nav {
+  position:fixed;
+  top:0; left:0; right:0;
+  z-index:500;
+  height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 5rem;
+  transition:all 0.4s;
+  background:transparent;
+}
+#nav.solid {
+  background:var(--cream);
+  border-bottom:1px solid rgba(26,18,9,0.1);
+  box-shadow:var(--shadow-sm);
+}
+.brand {
+  display:flex;
+  align-items:center;
+  gap:1rem;
+}
+.brand-mark {
+  width:44px;
+  height:44px;
+  flex-shrink:0;
+}
+.brand-text { display:flex; flex-direction:column; gap:2px; }
+.brand-name {
+  font-family:'Cormorant Garamond', serif;
+  font-size:1.15rem;
+  font-weight:600;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--espresso);
+  line-height:1;
+}
+#nav:not(.solid) .brand-name { color:var(--cream); }
+.brand-est {
+  font-family:'Syne Mono', monospace;
+  font-size:0.5rem;
+  letter-spacing:0.22em;
+  text-transform:uppercase;
+  color:var(--brass);
+  line-height:1;
+}
+.nav-links {
+  display:flex;
+  align-items:center;
+  gap:2.5rem;
+  list-style:none;
+}
+.nav-links a {
+  font-size:0.68rem;
+  font-weight:600;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--espresso-3);
+  transition:color 0.2s;
+  position:relative;
+}
+#nav:not(.solid) .nav-links a { color:rgba(245,240,232,0.75); }
+.nav-links a::after {
+  content:'';
+  position:absolute;
+  bottom:-3px;
+  left:0; right:0;
+  height:1px;
+  background:var(--brass);
+  transform:scaleX(0);
+  transform-origin:right;
+  transition:transform 0.3s;
+}
+.nav-links a:hover { color:var(--espresso); }
+#nav:not(.solid) .nav-links a:hover { color:var(--cream); }
+.nav-links a:hover::after { transform:scaleX(1); transform-origin:left; }
+.nav-ctas { display:flex; align-items:center; gap:0.75rem; }
+.nav-wa-btn {
+  display:flex;
+  align-items:center;
+  gap:0.45rem;
+  padding:0.5rem 1.1rem;
+  background:var(--wa);
+  color:#fff;
+  border-radius:2px;
+  font-size:0.68rem;
+  font-weight:600;
+  letter-spacing:0.08em;
+  transition:background 0.2s;
+}
+.nav-wa-btn:hover { background:var(--wa-dk); }
+.nav-quote-btn {
+  display:flex;
+  align-items:center;
+  padding:0.5rem 1.3rem;
+  border:1.5px solid var(--brass);
+  color:var(--brass);
+  border-radius:2px;
+  font-size:0.68rem;
+  font-weight:600;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  cursor:pointer;
+  background:transparent;
+  transition:all 0.22s;
+}
+.nav-quote-btn:hover { background:var(--brass); color:var(--cream); }
+.hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:4px; }
+.hamburger span { display:block; width:22px; height:1.5px; background:var(--espresso); transition:all 0.3s; }
+#nav:not(.solid) .hamburger span { background:var(--cream); }
+
+/* ── MOBILE MENU ── */
+.mobile-menu { position:fixed; top:0; right:0; bottom:0; width:300px; background:var(--espresso); z-index:600; transform:translateX(100%); transition:transform 0.38s cubic-bezier(0.4,0,0.2,1); padding:5.5rem 2.5rem 2.5rem; display:flex; flex-direction:column; gap:0; }
+.mobile-menu.open { transform:translateX(0); }
+.mobile-menu a { font-family:'Syne',sans-serif; font-size:1.1rem; font-weight:500; letter-spacing:0.06em; color:var(--smoke-lt); padding:1rem 0; border-bottom:1px solid rgba(255,255,255,0.06); display:block; transition:color 0.2s; }
+.mobile-menu a:hover { color:var(--brass-lt); }
+.menu-overlay { position:fixed; inset:0; background:rgba(0,0,0,0.55); z-index:599; opacity:0; pointer-events:none; transition:opacity 0.3s; }
+.menu-overlay.open { opacity:1; pointer-events:all; }
+
+/* ── HERO ── */
+#hero {
+  position:relative;
+  height:100vh;
+  min-height:640px;
+  overflow:hidden;
+  display:flex;
+  align-items:flex-end;
+  padding-bottom:6rem;
+}
+.hero-bg {
+  position:absolute;
+  inset:0;
+  background-image:url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1600&q=85&auto=format&fit=crop');
+  background-size:cover;
+  background-position:center 40%;
+  transform:scale(1.04);
+  transition:transform 10s ease;
+}
+.hero-bg.loaded { transform:scale(1); }
+.hero-overlay {
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    to top,
+    rgba(26,18,9,0.92) 0%,
+    rgba(26,18,9,0.55) 35%,
+    rgba(26,18,9,0.2) 70%,
+    rgba(26,18,9,0.1) 100%
+  );
+}
+/* Diagonal architectural line */
+.hero-overlay::after {
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    105deg,
+    rgba(26,18,9,0.45) 0%,
+    transparent 55%
+  );
+}
+.hero-inner {
+  position:relative;
+  z-index:2;
+  width:100%;
+  padding:0 5rem;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:flex-end;
+  gap:4rem;
+}
+.hero-left {}
+.hero-eyebrow {
+  font-family:'Syne Mono', monospace;
+  font-size:0.6rem;
+  letter-spacing:0.28em;
+  text-transform:uppercase;
+  color:var(--brass-lt);
+  display:flex;
+  align-items:center;
+  gap:0.8rem;
+  margin-bottom:1.4rem;
+  opacity:0;
+  transform:translateY(10px);
+  animation:fadeUp 0.7s 0.3s forwards;
+}
+.hero-eyebrow::before { content:''; width:2rem; height:1px; background:var(--brass-lt); display:block; }
+.hero-h1 {
+  font-family:'Cormorant Garamond', serif;
+  font-size:clamp(3rem, 6vw, 6.5rem);
+  font-weight:500;
+  line-height:1.0;
+  letter-spacing:-0.02em;
+  color:var(--cream);
+  margin-bottom:1.6rem;
+  opacity:0;
+  transform:translateY(16px);
+  animation:fadeUp 0.8s 0.45s forwards;
+}
+.hero-h1 em { font-style:italic; color:var(--brass-lt); }
+.hero-sub {
+  font-size:0.88rem;
+  font-weight:400;
+  line-height:1.8;
+  color:rgba(213,205,192,0.78);
+  max-width:440px;
+  margin-bottom:2.4rem;
+  opacity:0;
+  transform:translateY(12px);
+  animation:fadeUp 0.7s 0.65s forwards;
+}
+.hero-btns {
+  display:flex;
+  gap:0.9rem;
+  flex-wrap:wrap;
+  opacity:0;
+  transform:translateY(10px);
+  animation:fadeUp 0.7s 0.8s forwards;
+}
+.hero-right {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:2rem;
+  padding-bottom:0.5rem;
+  opacity:0;
+  animation:fadeIn 1s 1s forwards;
+}
+.hero-stats-col {
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+  align-items:flex-end;
+}
+.hero-stat {
+  text-align:right;
+  border-right:2px solid var(--brass);
+  padding-right:1.2rem;
+}
+.hero-stat-num {
+  font-family:'Cormorant Garamond', serif;
+  font-size:2.8rem;
+  font-weight:600;
+  color:var(--cream);
+  line-height:1;
+}
+.hero-stat-label {
+  font-family:'Syne Mono', monospace;
+  font-size:0.55rem;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  color:var(--smoke-lt);
+  margin-top:3px;
+}
+/* Hero scroll hint */
+.hero-scroll {
+  position:absolute;
+  bottom:2rem;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:10;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:0.5rem;
+  opacity:0;
+  animation:fadeIn 1s 1.4s forwards;
+}
+.hero-scroll span {
+  font-family:'Syne Mono', monospace;
+  font-size:0.5rem;
+  letter-spacing:0.25em;
+  text-transform:uppercase;
+  color:rgba(245,240,232,0.4);
+}
+.scroll-line {
+  width:1px;
+  height:40px;
+  background:linear-gradient(to bottom, var(--brass-lt), transparent);
+  animation:scrollPulse 2s ease infinite;
+}
+@keyframes scrollPulse { 0%,100%{opacity:0.4;transform:scaleY(1)}50%{opacity:1;transform:scaleY(1.15)} }
+@keyframes fadeUp { to{opacity:1;transform:translateY(0)} }
+@keyframes fadeIn { to{opacity:1} }
+
+/* ── STATS BAND ── */
+#stats-band {
+  background:var(--espresso);
+  padding:2.5rem 5rem;
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  gap:0;
+}
+.stat-cell {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:0.3rem;
+  padding:0 2rem;
+  border-right:1px solid rgba(245,240,232,0.08);
+}
+.stat-cell:last-child { border-right:none; }
+.stat-n {
+  font-family:'Cormorant Garamond', serif;
+  font-size:2.8rem;
+  font-weight:600;
+  color:var(--brass-lt);
+  line-height:1;
+}
+.stat-l {
+  font-family:'Syne Mono', monospace;
+  font-size:0.56rem;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  color:rgba(168,158,142,0.7);
+  text-align:center;
+}
+
+/* ── ABOUT ── */
+#about {
+  padding:9rem 5rem;
+  background:var(--cream);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:6rem;
+  align-items:center;
+}
+.about-visual { position:relative; height:580px; }
+.about-img-main {
+  position:absolute;
+  top:0; left:0;
+  width:72%;
+  height:84%;
+  overflow:hidden;
+}
+.about-img-main img { width:100%; height:100%; object-fit:cover; transition:transform 7s ease; }
+.about-img-main:hover img { transform:scale(1.04); }
+.about-img-accent {
+  position:absolute;
+  bottom:0; right:0;
+  width:52%;
+  height:50%;
+  overflow:hidden;
+  border:6px solid var(--cream);
+}
+.about-img-accent img { width:100%; height:100%; object-fit:cover; }
+/* Year badge — architectural */
+.year-tag {
+  position:absolute;
+  top:2rem;
+  right:calc(52% - 1.5rem);
+  background:var(--brass);
+  color:var(--cream);
+  padding:1.2rem 1rem;
+  text-align:center;
+  z-index:5;
+}
+.year-tag .yr {
+  font-family:'Cormorant Garamond', serif;
+  font-size:1.8rem;
+  font-weight:700;
+  line-height:1;
+  display:block;
+}
+.year-tag .since {
+  font-family:'Syne Mono', monospace;
+  font-size:0.48rem;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  opacity:0.8;
+  margin-top:3px;
+  display:block;
+}
+.about-body { display:flex; flex-direction:column; gap:1.8rem; }
+.about-body .display-title { margin-bottom:0.2rem; }
+.feat-list { display:flex; flex-direction:column; gap:0; margin-top:0.4rem; }
+.feat-row {
+  display:flex;
+  align-items:center;
+  gap:1.2rem;
+  padding:0.9rem 0;
+  border-bottom:1px solid rgba(26,18,9,0.08);
+}
+.feat-row:first-child { border-top:1px solid rgba(26,18,9,0.08); }
+.feat-icon {
+  width:32px;
+  height:32px;
+  flex-shrink:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--brass-glow);
+}
+.feat-txt { font-size:0.82rem; font-weight:600; color:var(--espresso-2); line-height:1.3; }
+.feat-txt small { display:block; font-weight:400; color:var(--smoke); font-size:0.74rem; margin-top:1px; }
+.about-ctas { display:flex; gap:1rem; margin-top:0.4rem; }
+
+/* ── PRODUCTS ── */
+#products {
+  padding:9rem 5rem;
+  background:var(--espresso);
+}
+.products-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  margin-bottom:3.5rem;
+  gap:2rem;
+}
+.products-header .display-title { max-width:480px; }
+.product-grid-wrap { position:relative; overflow:hidden; }
+.product-track {
+  display:flex;
+  gap:2px;
+  transition:transform 0.55s cubic-bezier(0.4,0,0.2,1);
+}
+.prod-card {
+  flex:0 0 calc(33.333% - 2px);
+  min-width:calc(33.333% - 2px);
+  height:460px;
+  position:relative;
+  overflow:hidden;
+  cursor:pointer;
+}
+.prod-card img { width:100%; height:100%; object-fit:cover; transition:transform 0.7s cubic-bezier(0.4,0,0.2,1); filter:brightness(0.9); }
+.prod-card:hover img { transform:scale(1.06); filter:brightness(0.75); }
+.prod-veil {
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to top, rgba(26,18,9,0.9) 0%, rgba(26,18,9,0.2) 45%, transparent 100%);
+}
+.prod-info-box {
+  position:absolute;
+  bottom:0; left:0; right:0;
+  padding:2rem 1.8rem 1.8rem;
+}
+.prod-cat-tag {
+  font-family:'Syne Mono', monospace;
+  font-size:0.55rem;
+  letter-spacing:0.22em;
+  text-transform:uppercase;
+  color:var(--brass-lt);
+  margin-bottom:0.5rem;
+}
+.prod-name {
+  font-family:'Cormorant Garamond', serif;
+  font-size:1.55rem;
+  font-weight:500;
+  color:var(--cream);
+  line-height:1.15;
+  margin-bottom:0.4rem;
+}
+.prod-desc { font-size:0.76rem; color:rgba(213,205,192,0.6); line-height:1.55; }
+.prod-enquire {
+  display:inline-flex;
+  align-items:center;
+  gap:0.4rem;
+  margin-top:1rem;
+  font-size:0.68rem;
+  font-weight:600;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--brass-lt);
+  opacity:0;
+  transform:translateY(6px);
+  transition:all 0.3s;
+}
+.prod-card:hover .prod-enquire { opacity:1; transform:translateY(0); }
+.prod-wa-pill {
+  display:none;
+  position:absolute;
+  top:1rem; right:1rem;
+  background:var(--wa);
+  color:#fff;
+  border:none;
+  border-radius:2px;
+  width:36px; height:36px;
+  align-items:center; justify-content:center;
+  cursor:pointer;
+  box-shadow:0 4px 16px rgba(37,211,102,0.4);
+  transition:transform 0.2s;
+}
+.prod-card:hover .prod-wa-pill { display:flex; }
+.prod-wa-pill:hover { transform:scale(1.1); }
+.prod-nav { display:flex; align-items:center; gap:0.5rem; margin-top:2rem; justify-content:flex-end; }
+.pnav-btn {
+  width:44px; height:44px;
+  border:1px solid rgba(245,240,232,0.2);
+  background:transparent;
+  color:var(--cream);
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer;
+  transition:all 0.22s;
+}
+.pnav-btn:hover { background:var(--brass); border-color:var(--brass); }
+
+/* ── MARQUEE ── */
+#marquee-band {
+  background:var(--cream-dk);
+  padding:1.6rem 0;
+  overflow:hidden;
+  border-top:1px solid rgba(26,18,9,0.07);
+  border-bottom:1px solid rgba(26,18,9,0.07);
+}
+.marquee-inner { display:flex; gap:0; animation:marq 24s linear infinite; width:max-content; }
+.marquee-inner:hover { animation-play-state:paused; }
+.marq-item {
+  display:flex;
+  align-items:center;
+  gap:2.5rem;
+  padding:0 2.5rem;
+  font-family:'Cormorant Garamond', serif;
+  font-size:1rem;
+  font-weight:500;
+  color:var(--smoke);
+  letter-spacing:0.04em;
+  white-space:nowrap;
+  transition:color 0.2s;
+}
+.marq-item:hover { color:var(--brass); }
+.marq-dot { width:4px; height:4px; background:var(--brass); border-radius:50%; flex-shrink:0; }
+@keyframes marq { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+/* ── GLOBAL ── */
+#global {
+  padding:9rem 5rem;
+  background:var(--espresso-2);
+}
+.global-grid {
+  display:grid;
+  grid-template-columns:1fr 340px;
+  gap:4rem;
+  align-items:start;
+  margin-top:3rem;
+}
+.world-wrap {
+  background:rgba(245,240,232,0.03);
+  border:1px solid rgba(245,240,232,0.07);
+  overflow:hidden;
+}
+.world-wrap svg { width:100%; height:auto; display:block; }
+.regions-col { display:flex; flex-direction:column; gap:0.7rem; }
+.region-row {
+  padding:1rem 1.3rem;
+  background:rgba(245,240,232,0.04);
+  border:1px solid rgba(245,240,232,0.07);
+  border-left:2px solid rgba(184,145,74,0.4);
+  transition:all 0.22s;
+  cursor:pointer;
+}
+.region-row:hover { background:rgba(184,145,74,0.08); border-left-color:var(--brass); }
+.region-name-txt {
+  font-family:'Syne Mono', monospace;
+  font-size:0.62rem;
+  letter-spacing:0.16em;
+  text-transform:uppercase;
+  color:var(--smoke-lt);
+  margin-bottom:0.25rem;
+}
+.region-countries-txt { font-size:0.78rem; color:rgba(168,158,142,0.65); line-height:1.5; }
+.export-cta-box {
+  margin-top:1.5rem;
+  padding:1.5rem;
+  background:linear-gradient(135deg, rgba(184,145,74,0.15), rgba(184,145,74,0.06));
+  border:1px solid rgba(184,145,74,0.25);
+  text-align:center;
+}
+.export-cta-num {
+  font-family:'Cormorant Garamond', serif;
+  font-size:3.2rem;
+  font-weight:600;
+  color:var(--brass-lt);
+  line-height:1;
+}
+.export-cta-lbl {
+  font-family:'Syne Mono', monospace;
+  font-size:0.55rem;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  color:var(--smoke-lt);
+  margin-top:5px;
+}
+
+/* ── QUALITY ── */
+#quality {
+  padding:9rem 5rem;
+  background:var(--cream-dk);
+}
+.quality-intro { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start; margin-bottom:4rem; }
+.quality-cards { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(26,18,9,0.1); }
+.q-card {
+  background:var(--cream);
+  padding:2.5rem 2rem;
+  transition:all 0.3s;
+}
+.q-card:hover { background:var(--espresso); }
+.q-num {
+  font-family:'Cormorant Garamond', serif;
+  font-size:3rem;
+  font-weight:300;
+  color:var(--brass);
+  line-height:1;
+  margin-bottom:1.2rem;
+}
+.q-card:hover .q-num { color:var(--brass-lt); }
+.q-title {
+  font-size:0.78rem;
+  font-weight:700;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--espresso);
+  margin-bottom:0.7rem;
+}
+.q-card:hover .q-title { color:var(--cream); }
+.q-desc { font-size:0.78rem; color:var(--smoke); line-height:1.7; }
+.q-card:hover .q-desc { color:var(--smoke-lt); }
+.cert-row {
+  margin-top:3rem;
+  display:flex;
+  align-items:center;
+  gap:2rem;
+  flex-wrap:wrap;
+  padding:1.8rem 2.5rem;
+  background:var(--espresso);
+}
+.cert-lbl {
+  font-family:'Syne Mono', monospace;
+  font-size:0.58rem;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  color:var(--smoke);
+  white-space:nowrap;
+}
+.cert-tags { display:flex; gap:0.7rem; flex-wrap:wrap; }
+.cert-tag {
+  padding:0.35rem 1rem;
+  border:1px solid rgba(184,145,74,0.3);
+  font-family:'Syne Mono', monospace;
+  font-size:0.6rem;
+  letter-spacing:0.12em;
+  color:var(--brass);
+}
+
+/* ── PROCESS ── */
+#process {
+  padding:9rem 5rem;
+  background:var(--cream);
+}
+.process-row {
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:0;
+  margin-top:4rem;
+  border:1px solid rgba(26,18,9,0.1);
+}
+.proc-cell {
+  padding:2.5rem 1.5rem;
+  border-right:1px solid rgba(26,18,9,0.1);
+  text-align:center;
+  transition:background 0.3s;
+  position:relative;
+}
+.proc-cell:last-child { border-right:none; }
+.proc-cell:hover { background:var(--espresso); }
+.proc-n {
+  font-family:'Cormorant Garamond', serif;
+  font-size:2.4rem;
+  font-weight:300;
+  color:var(--brass);
+  line-height:1;
+  margin-bottom:1rem;
+}
+.proc-cell:hover .proc-n { color:var(--brass-lt); }
+.proc-lbl {
+  font-size:0.75rem;
+  font-weight:700;
+  letter-spacing:0.06em;
+  color:var(--espresso-2);
+  line-height:1.3;
+  text-transform:uppercase;
+}
+.proc-cell:hover .proc-lbl { color:var(--cream); }
+.proc-sub { font-size:0.68rem; color:var(--smoke); margin-top:0.4rem; line-height:1.4; }
+.proc-cell:hover .proc-sub { color:var(--smoke-lt); }
+
+/* ── TESTIMONIALS ── */
+#testimonials {
+  padding:9rem 5rem;
+  background:var(--espresso);
+}
+.testi-wrap { position:relative; overflow:hidden; margin-top:3rem; }
+.testi-track { display:flex; transition:transform 0.55s cubic-bezier(0.4,0,0.2,1); }
+.testi-card {
+  flex:0 0 calc(33.333%);
+  padding:2.5rem 2rem;
+  background:rgba(245,240,232,0.04);
+  border:1px solid rgba(245,240,232,0.08);
+  margin:0 0.5rem;
+  transition:border-color 0.3s;
+}
+.testi-card:hover { border-color:rgba(184,145,74,0.3); }
+.testi-stars { color:var(--brass); font-size:0.85rem; letter-spacing:0.1em; margin-bottom:1.2rem; }
+.testi-quote {
+  font-family:'Cormorant Garamond', serif;
+  font-size:1.05rem;
+  font-style:italic;
+  font-weight:400;
+  color:var(--smoke-lt);
+  line-height:1.8;
+  margin-bottom:1.8rem;
+}
+.testi-byline { display:flex; align-items:center; gap:0.8rem; }
+.testi-init {
+  width:38px; height:38px;
+  background:rgba(184,145,74,0.15);
+  border:1px solid rgba(184,145,74,0.3);
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-family:'Syne Mono', monospace;
+  font-size:0.65rem;
+  color:var(--brass);
+  flex-shrink:0;
+}
+.testi-who { font-size:0.8rem; font-weight:600; color:var(--cream); }
+.testi-loc { font-size:0.72rem; color:var(--smoke); margin-top:2px; }
+.testi-dots { display:flex; gap:0.5rem; margin-top:2rem; justify-content:center; }
+.tnav-dot { width:26px; height:2px; background:rgba(245,240,232,0.18); cursor:pointer; transition:all 0.3s; }
+.tnav-dot.active { background:var(--brass); width:44px; }
+
+/* ── CATALOGUE CTA ── */
+#catalogue-cta {
+  padding:6rem 5rem;
+  background:var(--cream-dk);
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:4rem;
+  align-items:center;
+  border-top:1px solid rgba(26,18,9,0.08);
+  border-bottom:1px solid rgba(26,18,9,0.08);
+  position:relative;
+  overflow:hidden;
+}
+#catalogue-cta::before {
+  content:'';
+  position:absolute;
+  top:-2px; left:0; right:0; height:3px;
+  background:linear-gradient(90deg, transparent, var(--brass), transparent);
+}
+.cat-text h2 {
+  font-family:'Cormorant Garamond', serif;
+  font-size:clamp(2rem,3.5vw,3.2rem);
+  font-weight:500;
+  color:var(--espresso);
+  line-height:1.15;
+  margin-bottom:0.7rem;
+}
+.cat-text p { font-size:0.88rem; color:var(--smoke); line-height:1.75; max-width:480px; }
+.cat-actions { display:flex; flex-direction:column; gap:0.8rem; min-width:220px; }
+
+/* ── INQUIRY ── */
+#inquiry {
+  padding:9rem 5rem;
+  background:var(--cream);
+  display:grid;
+  grid-template-columns:1fr 1.3fr;
+  gap:6rem;
+  align-items:start;
+}
+.inq-left { position:sticky; top:100px; }
+.inq-left .display-title { margin-bottom:1rem; }
+.contact-items { display:flex; flex-direction:column; gap:0; margin-top:2rem; }
+.contact-row {
+  display:flex;
+  align-items:flex-start;
+  gap:1rem;
+  padding:1rem 0;
+  border-bottom:1px solid rgba(26,18,9,0.07);
+}
+.contact-row:first-child { border-top:1px solid rgba(26,18,9,0.07); }
+.contact-ico {
+  width:32px; height:32px;
+  background:var(--brass-glow);
+  flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+}
+.contact-lbl {
+  font-family:'Syne Mono', monospace;
+  font-size:0.58rem;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--smoke);
+  margin-bottom:3px;
+}
+.contact-val { font-size:0.82rem; font-weight:500; color:var(--espresso-2); line-height:1.5; }
+.contact-val a { color:var(--brass-dk); transition:color 0.2s; }
+.contact-val a:hover { color:var(--brass); }
+.inq-map { margin-top:1.5rem; border:1px solid rgba(26,18,9,0.1); overflow:hidden; }
+.inq-map iframe { display:block; width:100%; height:220px; border:none; }
+.inq-right {}
+.form-card { background:var(--cream-dk); padding:2.5rem; border:1px solid rgba(26,18,9,0.08); }
+.form-title {
+  font-family:'Cormorant Garamond', serif;
+  font-size:1.7rem;
+  font-weight:500;
+  color:var(--espresso);
+  margin-bottom:0.4rem;
+}
+.form-sub { font-size:0.8rem; color:var(--smoke); margin-bottom:2rem; }
+.form-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
+.fg { display:flex; flex-direction:column; gap:0.35rem; }
+.fg.full { grid-column:1/-1; }
+.fg label {
+  font-family:'Syne Mono', monospace;
+  font-size:0.58rem;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--smoke);
+}
+.fg input, .fg select, .fg textarea {
+  padding:0.8rem 1rem;
+  background:var(--cream);
+  border:1.5px solid rgba(26,18,9,0.1);
+  font-family:'Syne', sans-serif;
+  font-size:0.85rem;
+  color:var(--espresso);
+  outline:none;
+  transition:border-color 0.2s;
+  -webkit-appearance:none;
+  width:100%;
+}
+.fg input:focus, .fg select:focus, .fg textarea:focus { border-color:var(--brass); }
+.fg textarea { resize:vertical; min-height:100px; }
+.fg select {
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23999'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 1rem center;
+  padding-right:2.5rem;
+  cursor:pointer;
+}
+.form-actions { grid-column:1/-1; display:flex; gap:0.8rem; flex-wrap:wrap; align-items:center; margin-top:0.3rem; }
+.form-note-txt {
+  grid-column:1/-1;
+  font-size:0.74rem;
+  color:var(--smoke);
+  line-height:1.55;
+  padding:0.8rem 1rem;
+  background:var(--brass-glow);
+  border-left:2px solid var(--brass);
+}
+
+/* ── FOOTER ── */
+footer { background:var(--espresso); }
+.footer-main {
+  padding:5rem 5rem 3rem;
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1.4fr;
+  gap:3rem;
+  border-bottom:1px solid rgba(245,240,232,0.07);
+}
+.footer-brand {}
+.fb-brand-wrap { display:flex; align-items:center; gap:0.9rem; margin-bottom:1.2rem; }
+.fb-name {
+  font-family:'Cormorant Garamond', serif;
+  font-size:1.2rem;
+  font-weight:600;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--cream);
+}
+.fb-est {
+  font-family:'Syne Mono', monospace;
+  font-size:0.5rem;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  color:var(--brass);
+}
+.footer-brand p { font-size:0.78rem; line-height:1.75; color:var(--smoke); max-width:260px; margin-bottom:1.2rem; }
+.footer-certs { display:flex; gap:0.5rem; flex-wrap:wrap; }
+.footer-cert { padding:0.28rem 0.7rem; border:1px solid rgba(184,145,74,0.28); font-family:'Syne Mono', monospace; font-size:0.58rem; letter-spacing:0.1em; color:var(--brass); }
+.footer-col h4 {
+  font-family:'Syne Mono', monospace;
+  font-size:0.58rem;
+  letter-spacing:0.22em;
+  text-transform:uppercase;
+  color:var(--smoke);
+  margin-bottom:1.4rem;
+}
+.footer-col ul { list-style:none; display:flex; flex-direction:column; gap:0.7rem; }
+.footer-col a { font-size:0.78rem; color:rgba(168,158,142,0.65); transition:color 0.2s; line-height:1.4; }
+.footer-col a:hover { color:var(--brass-lt); }
+.footer-contact-block { font-size:0.78rem; color:var(--smoke); line-height:1.65; margin-bottom:0.7rem; }
+.footer-contact-block strong { display:block; font-family:'Syne Mono', monospace; font-size:0.56rem; letter-spacing:0.14em; text-transform:uppercase; color:rgba(168,158,142,0.5); margin-bottom:2px; font-weight:400; }
+.footer-contact-block a { color:var(--smoke); transition:color 0.2s; }
+.footer-contact-block a:hover { color:var(--brass-lt); }
+.footer-bottom {
+  padding:1.5rem 5rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:1rem;
+}
+.footer-copy { font-size:0.72rem; color:rgba(122,112,96,0.6); }
+.footer-links { display:flex; gap:2rem; }
+.footer-links a { font-size:0.72rem; color:rgba(122,112,96,0.55); transition:color 0.2s; }
+.footer-links a:hover { color:var(--brass); }
+.footer-socials { display:flex; gap:0.5rem; }
+.soc { width:32px; height:32px; border:1px solid rgba(245,240,232,0.1); display:flex; align-items:center; justify-content:center; color:var(--smoke); font-size:0.62rem; font-family:'Syne Mono',monospace; transition:all 0.2s; }
+.soc:hover { border-color:var(--brass); color:var(--brass); }
+.soc.wa { background:var(--wa); border-color:var(--wa); color:#fff; }
+.soc.wa:hover { background:var(--wa-dk); }
+
+/* ── FLOAT WA ── */
+.float-wa-btn {
+  position:fixed;
+  bottom:2rem; right:2rem;
+  z-index:999;
+  width:56px; height:56px;
+  background:var(--wa);
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 4px 24px rgba(37,211,102,0.45);
+  animation:waPulse 3s ease infinite;
+  transition:transform 0.2s;
+}
+.float-wa-btn:hover { transform:scale(1.1); }
+.float-wa-btn .tooltip {
+  position:absolute;
+  right:68px;
+  top:50%;
+  transform:translateY(-50%);
+  background:var(--espresso);
+  color:var(--cream);
+  padding:0.4rem 0.9rem;
+  font-size:0.7rem;
+  font-weight:600;
+  white-space:nowrap;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity 0.2s;
+  letter-spacing:0.05em;
+}
+.float-wa-btn:hover .tooltip { opacity:1; }
+@keyframes waPulse { 0%,100%{box-shadow:0 4px 24px rgba(37,211,102,0.45)}50%{box-shadow:0 4px 36px rgba(37,211,102,0.7),0 0 0 10px rgba(37,211,102,0.07)} }
+
+/* ── REVEAL ANIM ── */
+.rv { opacity:0; transform:translateY(28px); transition:opacity 0.75s,transform 0.75s; }
+.rv.on { opacity:1; transform:translateY(0); }
+.rv-l { opacity:0; transform:translateX(-28px); transition:opacity 0.75s,transform 0.75s; }
+.rv-l.on { opacity:1; transform:translateX(0); }
+.rv-r { opacity:0; transform:translateX(28px); transition:opacity 0.75s,transform 0.75s; }
+.rv-r.on { opacity:1; transform:translateX(0); }
+
+/* ── RESPONSIVE ── */
+@media(max-width:1100px) {
+  #nav { padding:0 2rem; height:66px; }
+  .nav-links { display:none; }
+  .hamburger { display:flex; }
+  .hero-inner { grid-template-columns:1fr; padding:0 2rem; }
+  .hero-right { display:none; }
+  .hero-h1 { font-size:clamp(2.8rem,8vw,4.5rem); }
+  #stats-band { padding:2rem; grid-template-columns:repeat(3,1fr); }
+  .stat-cell:nth-child(4),.stat-cell:nth-child(5) { border-right:none; }
+  #about { grid-template-columns:1fr; padding:6rem 2rem; gap:4rem; }
+  .about-visual { height:340px; }
+  #products { padding:6rem 2rem; }
+  .prod-card { flex:0 0 calc(50% - 1px); min-width:calc(50% - 1px); }
+  .products-header { flex-direction:column; align-items:flex-start; }
+  #global { padding:6rem 2rem; }
+  .global-grid { grid-template-columns:1fr; }
+  #quality { padding:6rem 2rem; }
+  .quality-intro { grid-template-columns:1fr; gap:2rem; }
+  .quality-cards { grid-template-columns:repeat(2,1fr); }
+  #process { padding:6rem 2rem; }
+  .process-row { grid-template-columns:repeat(3,1fr); }
+  #testimonials { padding:6rem 2rem; }
+  .testi-card { flex:0 0 100%; }
+  #catalogue-cta { grid-template-columns:1fr; padding:4rem 2rem; gap:2rem; }
+  #inquiry { grid-template-columns:1fr; padding:6rem 2rem; gap:4rem; }
+  .inq-left { position:static; }
+  footer .footer-main { grid-template-columns:1fr 1fr; padding:4rem 2rem; }
+  footer .footer-bottom { padding:1.5rem 2rem; }
+}
+@media(max-width:640px) {
+  .hero-h1 { font-size:2.8rem; }
+  #stats-band { grid-template-columns:repeat(2,1fr); }
+  .stat-cell:nth-child(5) { display:none; }
+  .quality-cards { grid-template-columns:1fr; }
+  .process-row { grid-template-columns:repeat(2,1fr); }
+  .prod-card { flex:0 0 100%; min-width:100%; }
+  .form-grid { grid-template-columns:1fr; }
+  .fg.full { grid-column:1; }
+  footer .footer-main { grid-template-columns:1fr; }
+  .footer-bottom { flex-direction:column; align-items:flex-start; }
+  #catalogue-cta .cat-actions { flex-direction:column; }
 }
 </style>
 </head>
 <body>
 
-<!-- ─── NAV ─── -->
+<!-- ── NAV ── -->
 <nav id="nav">
-  <a href="#hero" class="nav-brand">
-    <div class="nav-brand-logo">
-      <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="22" cy="22" r="21" stroke="#c9a84c" stroke-width="1.5"/>
-        <path d="M22 10C22 10 14.5 18.5 14.5 24C14.5 28.4 17.8 31.5 22 31.5C26.2 31.5 29.5 28.4 29.5 24C29.5 18.5 22 10 22 10Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.8" stroke-linejoin="round"/>
-        <text x="22" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="9" font-weight="700" fill="#c9a84c" letter-spacing="0.5">BI</text>
-      </svg>
-    </div>
-    <div class="nav-brand-text">
-      <span class="nav-brand-name">BHARAT IMPEX</span>
-      <span class="nav-brand-sub">Est. 1972 · New Delhi, India</span>
+  <a href="#hero" class="brand">
+    <svg class="brand-mark" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="42" height="42" stroke="#B8914A" stroke-width="1"/>
+      <rect x="5" y="5" width="34" height="34" stroke="#B8914A" stroke-width="0.4" opacity="0.4"/>
+      <path d="M22 9C22 9 15 18 15 24.5C15 28.9 18.1 32.5 22 32.5C25.9 32.5 29 28.9 29 24.5C29 18 22 9 22 9Z" fill="rgba(184,145,74,0.15)" stroke="#B8914A" stroke-width="1.2"/>
+      <text x="22" y="28" text-anchor="middle" font-family="Georgia,serif" font-size="7.5" font-weight="700" fill="#B8914A" letter-spacing="0.5">BI</text>
+    </svg>
+    <div class="brand-text">
+      <span class="brand-name">Bharat Impex</span>
+      <span class="brand-est">Est. 1972 · New Delhi</span>
     </div>
   </a>
   <ul class="nav-links">
@@ -394,449 +1143,334 @@ footer{background:var(--ink);border-top:1px solid rgba(255,255,255,0.06);}
     <li><a href="#quality">Quality</a></li>
     <li><a href="#inquiry">Contact</a></li>
   </ul>
-  <div class="nav-actions">
-    <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." class="nav-wa" target="_blank">
+  <div class="nav-ctas">
+    <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." class="nav-wa-btn" target="_blank">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
       +91 98711 48880
     </a>
-    <button class="nav-enquiry" onclick="document.getElementById('inquiry').scrollIntoView({behavior:'smooth'})">
-      Get Quote
-    </button>
+    <button class="nav-quote-btn" onclick="document.getElementById('inquiry').scrollIntoView({behavior:'smooth'})">Get Quote</button>
   </div>
-  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+  <div class="hamburger" onclick="toggleMenu()">
     <span></span><span></span><span></span>
   </div>
 </nav>
 
-<!-- Mobile Menu -->
 <div class="menu-overlay" id="menuOverlay" onclick="toggleMenu()"></div>
 <div class="mobile-menu" id="mobileMenu">
   <a href="#about" onclick="toggleMenu()">About</a>
   <a href="#products" onclick="toggleMenu()">Products</a>
   <a href="#global" onclick="toggleMenu()">Global Presence</a>
   <a href="#quality" onclick="toggleMenu()">Quality</a>
-  <a href="#catalogue" onclick="toggleMenu()">Catalogue</a>
+  <a href="#catalogue-cta" onclick="toggleMenu()">Catalogue</a>
   <a href="#inquiry" onclick="toggleMenu()">Contact</a>
-  <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" style="color:var(--wa);border-color:rgba(37,211,102,0.3);">
-    WhatsApp: +91 98711 48880
-  </a>
+  <a href="https://wa.me/919871148880" target="_blank" style="color:var(--wa);border-color:rgba(37,211,102,0.2);">WhatsApp: +91 98711 48880</a>
 </div>
 
-<!-- ─── HERO SLIDER ─── -->
+<!-- ── HERO ── -->
 <section id="hero">
-  <!-- Slide 1 -->
-  <div class="slide active" id="slide0">
-    <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200&q=72&fm=webp&auto=format&fit=crop')">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Since 1972 · New Delhi, India</div>
+      <h1 class="hero-h1">Premium Brass<br>Bathroom <em>Fittings</em><br>for the World</h1>
+      <p class="hero-sub">ISO 9001 certified manufacturer &amp; exporter of precision bathroom fittings, faucets, mixers and sanitary ware. Trusted by buyers across 40+ countries.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn btn-brass">Explore Products</a>
+        <a href="#inquiry" class="btn btn-outline-cream">Request Quote</a>
+      </div>
     </div>
-    <div class="slide-overlay" style="background:linear-gradient(110deg,rgba(10,10,14,0.88) 0%,rgba(10,10,14,0.55) 60%,rgba(10,10,14,0.25) 100%)"></div>
-    <div class="slide-content">
-      <div class="slide-tag">Since 1972 · New Delhi, India</div>
-      <h1 class="slide-h1">Premium Brass <em>Bathroom</em><br>Fittings for the World</h1>
-      <p class="slide-p">ISO 9001 certified manufacturer & exporter of precision bathroom fittings, faucets, mixers and sanitary ware. Trusted by buyers in 40+ countries.</p>
-      <div class="slide-btns">
-        <a href="#products" class="btn btn-gold">Explore Products</a>
-        <a href="#inquiry" class="btn btn-ghost">Request Quote</a>
+    <div class="hero-right">
+      <div class="hero-stats-col">
+        <div class="hero-stat">
+          <div class="hero-stat-num">50+</div>
+          <div class="hero-stat-label">Years in Business</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">40+</div>
+          <div class="hero-stat-label">Countries Served</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">1200+</div>
+          <div class="hero-stat-label">Product SKUs</div>
+        </div>
       </div>
     </div>
   </div>
-  <!-- Slide 2 -->
-  <div class="slide" id="slide1">
-    <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1200&q=72&fm=webp&auto=format&fit=crop')">
-    </div>
-    <div class="slide-overlay" style="background:linear-gradient(110deg,rgba(10,20,40,0.9) 0%,rgba(10,20,40,0.55) 60%,rgba(10,20,40,0.2) 100%)"></div>
-    <div class="slide-content">
-      <div class="slide-tag">1200+ Product SKUs Available</div>
-      <h1 class="slide-h1">Chrome, PVD &amp; <em>Specialty</em><br>Finishes in Every Style</h1>
-      <p class="slide-p">From classic chrome to brushed gold and matte black — we manufacture and export 1200+ SKUs, with OEM &amp; private label options for global brands.</p>
-      <div class="slide-btns">
-        <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20request%20your%20product%20catalogue." class="btn btn-gold" target="_blank">Request Catalogue</a>
-        <a href="#global" class="btn btn-ghost">Export Markets</a>
-      </div>
-    </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
   </div>
-  <!-- Slide 3 -->
-  <div class="slide" id="slide2">
-    <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?w=1200&q=72&fm=webp&auto=format&fit=crop')">
-    </div>
-    <div class="slide-overlay" style="background:linear-gradient(110deg,rgba(10,10,14,0.87) 0%,rgba(10,10,14,0.5) 60%,rgba(10,10,14,0.2) 100%)"></div>
-    <div class="slide-content">
-      <div class="slide-tag">Exporting to 40+ Countries</div>
-      <h1 class="slide-h1">Your Trusted <em>OEM</em><br>Manufacturing Partner</h1>
-      <p class="slide-p">State-of-the-art production, British Standard Specifications, expert craftsmanship — delivering world-class bathroom solutions for your brand.</p>
-      <div class="slide-btns">
-        <a href="#about" class="btn btn-gold">About Us</a>
-        <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20OEM%20manufacturing%20for%20my%20brand." class="btn btn-ghost" target="_blank">OEM Enquiry</a>
-      </div>
-    </div>
-  </div>
-  <!-- Slide 4 -->
-  <div class="slide" id="slide3">
-    <div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1753605788101-04d1e653e74a?w=1200&q=72&fm=webp&auto=format&fit=crop')">
-    </div>
-    <div class="slide-overlay" style="background:linear-gradient(110deg,rgba(5,15,30,0.9) 0%,rgba(5,15,30,0.55) 60%,rgba(5,15,30,0.2) 100%)"></div>
-    <div class="slide-content">
-      <div class="slide-tag">ISO 9001 Certified · 20+ Brands</div>
-      <h1 class="slide-h1">Become an <em>Authorised</em><br>Distributor Today</h1>
-      <p class="slide-p">Join our global distributor network across Middle East, Europe, Africa &amp; Asia. Competitive prices, reliable supply, and dedicated export support.</p>
-      <div class="slide-btns">
-        <a href="#inquiry" class="btn btn-gold">Apply Now</a>
-        <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20becoming%20a%20distributor%20for%20your%20products." class="btn btn-ghost" target="_blank">WhatsApp Us</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <div class="slider-controls">
-    <div class="slider-dots" id="sliderDots"></div>
-    <div class="slider-arrows">
-      <div class="sarrow" onclick="prevSlide()">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <div class="sarrow" onclick="nextSlide()">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-    </div>
-  </div>
-  <div class="slide-counter" id="slideCounter">01 / 04</div>
 </section>
 
-<!-- ─── STATS BAND ─── -->
-<div id="stats">
-  <div class="stat-item">
-    <div class="stat-num" data-target="50" data-suffix="+">0+</div>
-    <div class="stat-label">Years in Business</div>
+<!-- ── STATS BAND ── -->
+<div id="stats-band">
+  <div class="stat-cell">
+    <div class="stat-n" data-target="50" data-suffix="+">0+</div>
+    <div class="stat-l">Years in Business</div>
   </div>
-  <div class="stat-div"></div>
-  <div class="stat-item">
-    <div class="stat-num" data-target="40" data-suffix="+">0+</div>
-    <div class="stat-label">Countries Served</div>
+  <div class="stat-cell">
+    <div class="stat-n" data-target="40" data-suffix="+">0+</div>
+    <div class="stat-l">Countries Served</div>
   </div>
-  <div class="stat-div"></div>
-  <div class="stat-item">
-    <div class="stat-num" data-target="1200" data-suffix="+">0+</div>
-    <div class="stat-label">Product SKUs</div>
+  <div class="stat-cell">
+    <div class="stat-n" data-target="1200" data-suffix="+">0+</div>
+    <div class="stat-l">Product SKUs</div>
   </div>
-  <div class="stat-div"></div>
-  <div class="stat-item">
-    <div class="stat-num" data-target="5" data-suffix="M+">0M+</div>
-    <div class="stat-label">Units / Year</div>
+  <div class="stat-cell">
+    <div class="stat-n" data-target="5" data-suffix="M+">0M+</div>
+    <div class="stat-l">Units / Year</div>
   </div>
-  <div class="stat-div"></div>
-  <div class="stat-item">
-    <div class="stat-num" data-target="20" data-suffix="+">0+</div>
-    <div class="stat-label">Established Brands</div>
+  <div class="stat-cell">
+    <div class="stat-n" data-target="20" data-suffix="+">0+</div>
+    <div class="stat-l">Established Brands</div>
   </div>
 </div>
 
-<!-- ─── ABOUT ─── -->
+<!-- ── ABOUT ── -->
 <section id="about">
-  <div class="about-imgs rv-l">
-    <div class="aimg-main">
-      <img src="https://images.unsplash.com/photo-1562184552-997c461abbe6?w=900&q=88&auto=format&fit=crop" alt="Bharat Impex Manufacturing Excellence - Precision Brass Fittings">
+  <div class="about-visual rv-l">
+    <div class="about-img-main">
+      <img src="https://images.unsplash.com/photo-1562184552-997c461abbe6?w=900&q=88&auto=format&fit=crop" alt="Bharat Impex Manufacturing">
     </div>
-    <div class="aimg-accent">
-      <img src="https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?w=600&q=88&auto=format&fit=crop" alt="Quality Control at Bharat Impex">
+    <div class="about-img-accent">
+      <img src="https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?w=600&q=88&auto=format&fit=crop" alt="Quality Control">
     </div>
-    <div class="year-badge">
-      <div class="yr">1972</div>
-      <div class="since">Since</div>
+    <div class="year-tag">
+      <span class="yr">1972</span>
+      <span class="since">Since</span>
     </div>
   </div>
-  <div class="about-text rv-r">
+  <div class="about-body rv-r">
     <div>
-      <div class="tag">About Us</div>
-      <h2 class="section-title">Five Decades of <em>Manufacturing</em> Excellence</h2>
+      <div class="eyebrow">About Us</div>
+      <h2 class="display-title">Five Decades of<br><em>Manufacturing</em> Excellence</h2>
     </div>
-    <p class="lead">Established in 1972, Bharat Impex has earned a significant place in the overseas market as a prominent manufacturer and exporter of brass sanitary ware, pipe fittings, taps, bathroom fittings, and accessories. Our state-of-the-art production units, imported raw materials, and team of expert professionals deliver world-class products as per British Standard Specifications.</p>
-    <div class="feature-grid">
-      <div class="feature-item">
-        <div class="fi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <div class="fi-text">ISO 9001:2015 Certified<span>Quality Management System</span></div>
+    <p class="body-text">Established in 1972, Bharat Impex has earned a significant place in the overseas market as a prominent manufacturer and exporter of brass sanitary ware, pipe fittings, taps, bathroom fittings, and accessories. State-of-the-art production units, imported raw materials, and expert professionals delivering world-class products to British Standard Specifications.</p>
+    <div class="feat-list">
+      <div class="feat-row">
+        <div class="feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#B8914A" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <div class="feat-txt">ISO 9001:2015 Certified<small>Quality Management System</small></div>
       </div>
-      <div class="feature-item">
-        <div class="fi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <div class="fi-text">Exporting to 40+ Countries<span>Middle East · Europe · Africa · Asia</span></div>
+      <div class="feat-row">
+        <div class="feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064" stroke="#B8914A" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <div class="feat-txt">Exporting to 40+ Countries<small>Middle East · Europe · Africa · Asia</small></div>
       </div>
-      <div class="feature-item">
-        <div class="fi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <div class="fi-text">British Standard Specs<span>Precision-engineered products</span></div>
+      <div class="feat-row">
+        <div class="feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="#B8914A" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <div class="feat-txt">British Standard Specifications<small>Precision-engineered products</small></div>
       </div>
-      <div class="feature-item">
-        <div class="fi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 7h10M7 12h10M7 17h6" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/><rect x="3" y="3" width="18" height="18" rx="2" stroke="#c9a84c" stroke-width="2"/></svg></div>
-        <div class="fi-text">OEM &amp; Private Label<span>Custom designs &amp; finishes</span></div>
-      </div>
-      <div class="feature-item">
-        <div class="fi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <div class="fi-text">20+ Established Brands<span>Across global markets</span></div>
-      </div>
-      <div class="feature-item">
-        <div class="fi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="#c9a84c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <div class="fi-text">5M+ Units / Year<span>State-of-the-art production</span></div>
+      <div class="feat-row">
+        <div class="feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M7 7h10M7 12h10M7 17h6" stroke="#B8914A" stroke-width="1.8" stroke-linecap="round"/><rect x="3" y="3" width="18" height="18" rx="2" stroke="#B8914A" stroke-width="1.8"/></svg></div>
+        <div class="feat-txt">OEM &amp; Private Label<small>Custom designs &amp; finishes available</small></div>
       </div>
     </div>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0.5rem;">
-      <a href="http://www.bharatimpex.com/profile.html" class="btn btn-dark" target="_blank">Company Profile</a>
-      <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20know%20more%20about%20your%20company%20and%20products." class="btn btn-wa" target="_blank">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+    <div class="about-ctas">
+      <a href="http://www.bharatimpex.com/profile.html" class="btn btn-espresso" target="_blank">Company Profile</a>
+      <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20know%20more%20about%20your%20company." class="btn btn-wa" target="_blank">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         Chat on WhatsApp
       </a>
     </div>
   </div>
 </section>
 
-<!-- ─── PRODUCTS ─── -->
+<!-- ── PRODUCTS ── -->
 <section id="products">
-  <div class="products-top">
+  <div class="products-header rv">
     <div>
-      <div class="tag" style="color:var(--gold);">Our Products</div>
-      <h2 class="section-title light">1200+ SKUs Across <em>All Categories</em></h2>
-      <p class="lead light" style="margin-top:0.8rem;">Precision-engineered in chrome, PVD, and specialty finishes. Available for export, OEM, and private label.</p>
+      <div class="eyebrow" style="color:var(--brass-lt);">Our Products</div>
+      <h2 class="display-title on-dark">1200+ SKUs Across <em>All Categories</em></h2>
+      <p class="body-text on-dark" style="margin-top:0.9rem;">Chrome, PVD &amp; specialty finishes. Available for export, OEM, and private label.</p>
     </div>
-    <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20receive%20your%20full%20product%20catalogue%20with%20prices." class="btn btn-gold" target="_blank" style="flex-shrink:0;">Request Full Catalogue</a>
+    <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20receive%20your%20full%20product%20catalogue." class="btn btn-brass" target="_blank" style="flex-shrink:0;align-self:flex-end;">Request Catalogue</a>
   </div>
-  <div class="product-slider-wrap">
+  <div class="product-grid-wrap">
     <div class="product-track" id="productTrack">
-      <!-- Card 1 -->
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=85&auto=format&fit=crop" alt="Faucets and Taps - Bharat Impex">
-        <div class="prod-overlay"></div>
-        <div class="prod-info">
-          <div class="prod-cat">Faucets &amp; Taps</div>
+      <div class="prod-card">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=85&auto=format&fit=crop" alt="Faucets">
+        <div class="prod-veil"></div>
+        <div class="prod-info-box">
+          <div class="prod-cat-tag">Faucets &amp; Taps</div>
           <div class="prod-name">Pillar &amp; Bib Taps</div>
-          <div class="prod-desc">Single &amp; long body bib cock, pillar cock, angle cock, garden taps in chrome &amp; PVD</div>
-          <div class="prod-cta">Enquire Now →</div>
+          <div class="prod-desc">Single &amp; long body bib cock, pillar cock, angle cock in chrome &amp; PVD</div>
+          <div class="prod-enquire">Enquire Now →</div>
         </div>
-        <button class="prod-wa-btn" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20Pillar%20%26%20Bib%20Taps.%20Please%20share%20catalogue%20and%20prices.','_blank')" title="WhatsApp Enquiry">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        <button class="prod-wa-pill" onclick="window.open('https://wa.me/919871148880?text=I%20am%20interested%20in%20Pillar%20%26%20Bib%20Taps.','_blank')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         </button>
       </div>
-      <!-- Card 2 -->
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1595514535316-b8c85bf9bbf9?w=600&q=85&auto=format&fit=crop" alt="Basin Mixers - Bharat Impex">
-        <div class="prod-overlay"></div>
-        <div class="prod-info">
-          <div class="prod-cat">Mixers</div>
+      <div class="prod-card">
+        <img src="https://images.unsplash.com/photo-1595514535316-b8c85bf9bbf9?w=600&q=85&auto=format&fit=crop" alt="Mixers">
+        <div class="prod-veil"></div>
+        <div class="prod-info-box">
+          <div class="prod-cat-tag">Mixers</div>
           <div class="prod-name">Basin &amp; Sink Mixers</div>
-          <div class="prod-desc">Single hole, swan neck, two-hole, wall mixers for basin, kitchen &amp; bath applications</div>
-          <div class="prod-cta">Enquire Now →</div>
+          <div class="prod-desc">Single hole, swan neck, two-hole, wall mixers for basin &amp; kitchen</div>
+          <div class="prod-enquire">Enquire Now →</div>
         </div>
-        <button class="prod-wa-btn" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20Basin%20%26%20Sink%20Mixers.%20Please%20share%20catalogue%20and%20prices.','_blank')" title="WhatsApp Enquiry">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        <button class="prod-wa-pill" onclick="window.open('https://wa.me/919871148880?text=I%20am%20interested%20in%20Basin%20Mixers.','_blank')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         </button>
       </div>
-      <!-- Card 3 -->
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=85&auto=format&fit=crop" alt="Shower Systems - Bharat Impex">
-        <div class="prod-overlay"></div>
-        <div class="prod-info">
-          <div class="prod-cat">Shower Systems</div>
+      <div class="prod-card">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=85&auto=format&fit=crop" alt="Showers">
+        <div class="prod-veil"></div>
+        <div class="prod-info-box">
+          <div class="prod-cat-tag">Shower Systems</div>
           <div class="prod-name">Hand &amp; Overhead Showers</div>
-          <div class="prod-desc">Hand showers, shower columns, rain heads, slide bars — complete shower solutions</div>
-          <div class="prod-cta">Enquire Now →</div>
+          <div class="prod-desc">Hand showers, columns, rain heads, slide bars — complete solutions</div>
+          <div class="prod-enquire">Enquire Now →</div>
         </div>
-        <button class="prod-wa-btn" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20Shower%20Systems.%20Please%20share%20catalogue%20and%20prices.','_blank')" title="WhatsApp Enquiry">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        <button class="prod-wa-pill" onclick="window.open('https://wa.me/919871148880?text=I%20am%20interested%20in%20Shower%20Systems.','_blank')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         </button>
       </div>
-      <!-- Card 4 -->
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=85&auto=format&fit=crop" alt="Bath Mixers - Bharat Impex">
-        <div class="prod-overlay"></div>
-        <div class="prod-info">
-          <div class="prod-cat">Bath Fittings</div>
+      <div class="prod-card">
+        <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=85&auto=format&fit=crop" alt="Bath">
+        <div class="prod-veil"></div>
+        <div class="prod-info-box">
+          <div class="prod-cat-tag">Bath Fittings</div>
           <div class="prod-name">Bath Mixers &amp; Fillers</div>
-          <div class="prod-desc">Wall mounted, deck mount bath mixers, bath shower mixer valves with diverter</div>
-          <div class="prod-cta">Enquire Now →</div>
+          <div class="prod-desc">Wall mounted, deck mount bath mixers, shower mixer valves with diverter</div>
+          <div class="prod-enquire">Enquire Now →</div>
         </div>
-        <button class="prod-wa-btn" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20Bath%20Mixers.%20Please%20share%20catalogue%20and%20prices.','_blank')" title="WhatsApp Enquiry">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        <button class="prod-wa-pill" onclick="window.open('https://wa.me/919871148880?text=I%20am%20interested%20in%20Bath%20Mixers.','_blank')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         </button>
       </div>
-      <!-- Card 5 -->
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=85&auto=format&fit=crop" alt="Bathroom Accessories - Bharat Impex">
-        <div class="prod-overlay"></div>
-        <div class="prod-info">
-          <div class="prod-cat">Accessories</div>
+      <div class="prod-card">
+        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=85&auto=format&fit=crop" alt="Accessories">
+        <div class="prod-veil"></div>
+        <div class="prod-info-box">
+          <div class="prod-cat-tag">Accessories</div>
           <div class="prod-name">Bathroom Accessories</div>
-          <div class="prod-desc">Towel bars, rings, soap dishes, toilet paper holders, robe hooks — full accessory sets</div>
-          <div class="prod-cta">Enquire Now →</div>
+          <div class="prod-desc">Towel bars, rings, soap dishes, toilet paper holders, robe hooks — full sets</div>
+          <div class="prod-enquire">Enquire Now →</div>
         </div>
-        <button class="prod-wa-btn" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20Bathroom%20Accessories.%20Please%20share%20catalogue%20and%20prices.','_blank')" title="WhatsApp Enquiry">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        <button class="prod-wa-pill" onclick="window.open('https://wa.me/919871148880?text=I%20am%20interested%20in%20Bathroom%20Accessories.','_blank')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         </button>
       </div>
-      <!-- Card 6 -->
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=85&auto=format&fit=crop" alt="Brass Fittings - Bharat Impex">
-        <div class="prod-overlay"></div>
-        <div class="prod-info">
-          <div class="prod-cat">Brass Fittings</div>
-          <div class="prod-name">Brass Pipe &amp; Sanitary Fittings</div>
-          <div class="prod-desc">Precision brass valves, couplings, elbows, tees — industrial and sanitary grades</div>
-          <div class="prod-cta">Enquire Now →</div>
+      <div class="prod-card">
+        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=85&auto=format&fit=crop" alt="Brass Fittings">
+        <div class="prod-veil"></div>
+        <div class="prod-info-box">
+          <div class="prod-cat-tag">Brass Fittings</div>
+          <div class="prod-name">Brass Pipe &amp; Sanitary</div>
+          <div class="prod-desc">Precision brass valves, couplings, elbows, tees — industrial &amp; sanitary grades</div>
+          <div class="prod-enquire">Enquire Now →</div>
         </div>
-        <button class="prod-wa-btn" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20am%20interested%20in%20Brass%20Pipe%20Fittings.%20Please%20share%20catalogue%20and%20prices.','_blank')" title="WhatsApp Enquiry">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        <button class="prod-wa-pill" onclick="window.open('https://wa.me/919871148880?text=I%20am%20interested%20in%20Brass%20Fittings.','_blank')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         </button>
       </div>
     </div>
   </div>
-  <div class="slider-nav">
-    <button class="snav-btn" onclick="slideProducts(-1)"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-    <button class="snav-btn" onclick="slideProducts(1)"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <div class="prod-nav">
+    <button class="pnav-btn" onclick="slideProducts(-1)"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="pnav-btn" onclick="slideProducts(1)"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   </div>
 </section>
 
-<!-- ─── BRANDS MARQUEE ─── -->
-<div id="brands">
-  <div class="brands-label">20+ Established Brands Across Global Markets</div>
-  <div class="marquee-wrap">
-    <div class="marquee-track">
-      <span class="brand-tag"><span class="brand-dot"></span>Single Lever Collection</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Chrome Series</span>
-      <span class="brand-tag"><span class="brand-dot"></span>PVD Gold Range</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Matte Black Edition</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Exposed Shower Line</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Concealed Fitting Range</span>
-      <span class="brand-tag"><span class="brand-dot"></span>OEM Custom Brands</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Luxury Series</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Commercial Grade</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Eco Water Savers</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Single Lever Collection</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Chrome Series</span>
-      <span class="brand-tag"><span class="brand-dot"></span>PVD Gold Range</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Matte Black Edition</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Exposed Shower Line</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Concealed Fitting Range</span>
-      <span class="brand-tag"><span class="brand-dot"></span>OEM Custom Brands</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Luxury Series</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Commercial Grade</span>
-      <span class="brand-tag"><span class="brand-dot"></span>Eco Water Savers</span>
-    </div>
+<!-- ── MARQUEE BAND ── -->
+<div id="marquee-band">
+  <div class="marquee-inner">
+    <span class="marq-item"><span class="marq-dot"></span>Single Lever Collection</span>
+    <span class="marq-item"><span class="marq-dot"></span>Chrome Series</span>
+    <span class="marq-item"><span class="marq-dot"></span>PVD Gold Range</span>
+    <span class="marq-item"><span class="marq-dot"></span>Matte Black Edition</span>
+    <span class="marq-item"><span class="marq-dot"></span>Exposed Shower Line</span>
+    <span class="marq-item"><span class="marq-dot"></span>Concealed Fitting Range</span>
+    <span class="marq-item"><span class="marq-dot"></span>OEM Custom Brands</span>
+    <span class="marq-item"><span class="marq-dot"></span>Luxury Series</span>
+    <span class="marq-item"><span class="marq-dot"></span>Commercial Grade</span>
+    <span class="marq-item"><span class="marq-dot"></span>Eco Water Savers</span>
+    <span class="marq-item"><span class="marq-dot"></span>Single Lever Collection</span>
+    <span class="marq-item"><span class="marq-dot"></span>Chrome Series</span>
+    <span class="marq-item"><span class="marq-dot"></span>PVD Gold Range</span>
+    <span class="marq-item"><span class="marq-dot"></span>Matte Black Edition</span>
+    <span class="marq-item"><span class="marq-dot"></span>Exposed Shower Line</span>
+    <span class="marq-item"><span class="marq-dot"></span>Concealed Fitting Range</span>
+    <span class="marq-item"><span class="marq-dot"></span>OEM Custom Brands</span>
+    <span class="marq-item"><span class="marq-dot"></span>Luxury Series</span>
+    <span class="marq-item"><span class="marq-dot"></span>Commercial Grade</span>
+    <span class="marq-item"><span class="marq-dot"></span>Eco Water Savers</span>
   </div>
 </div>
 
-<!-- ─── GLOBAL PRESENCE ─── -->
+<!-- ── GLOBAL ── -->
 <section id="global">
-  <div class="tag" style="color:var(--gold);">Global Presence</div>
-  <h2 class="section-title light">Exporting to <em>40+ Countries</em> Worldwide</h2>
-  <p class="lead light" style="margin-top:0.8rem;">A 100% export-oriented unit, Bharat Impex has carved a niche in global markets across 5 continents.</p>
+  <div class="eyebrow" style="color:var(--brass);">Global Presence</div>
+  <h2 class="display-title on-dark rv">Exporting to <em>40+ Countries</em> Worldwide</h2>
+  <p class="body-text on-dark rv" style="margin-top:0.9rem;">A 100% export-oriented unit, Bharat Impex has carved a niche across 5 continents.</p>
   <div class="global-grid rv">
-    <div class="world-map">
+    <div class="world-wrap">
       <svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
-        <!-- Simplified world map outlines -->
-        <rect width="800" height="420" fill="rgba(255,255,255,0.02)"/>
-        <!-- North America -->
-        <path d="M80,80 L160,70 L180,90 L170,140 L140,160 L110,150 L90,120 Z" fill="rgba(58,130,196,0.2)" stroke="rgba(58,130,196,0.4)" stroke-width="1"/>
-        <!-- South America -->
-        <path d="M140,200 L180,195 L195,230 L185,290 L160,310 L135,280 L130,240 Z" fill="rgba(58,130,196,0.15)" stroke="rgba(58,130,196,0.3)" stroke-width="1"/>
-        <!-- Europe -->
-        <path d="M350,70 L410,65 L420,90 L405,110 L370,115 L345,100 Z" fill="rgba(201,168,76,0.25)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
-        <!-- Africa -->
-        <path d="M355,140 L410,135 L425,175 L415,240 L390,265 L360,255 L345,210 L340,170 Z" fill="rgba(58,130,196,0.2)" stroke="rgba(58,130,196,0.4)" stroke-width="1"/>
-        <!-- Middle East -->
-        <path d="M430,115 L480,110 L490,145 L465,160 L435,155 Z" fill="rgba(201,168,76,0.3)" stroke="rgba(201,168,76,0.6)" stroke-width="1.5"/>
-        <!-- India -->
-        <path d="M510,140 L540,135 L550,165 L535,195 L515,185 L505,165 Z" fill="rgba(201,168,76,0.45)" stroke="rgba(201,168,76,0.9)" stroke-width="2"/>
-        <!-- SE Asia -->
-        <path d="M580,160 L620,150 L635,175 L620,195 L590,190 Z" fill="rgba(58,130,196,0.2)" stroke="rgba(58,130,196,0.4)" stroke-width="1"/>
-        <!-- Australia -->
-        <path d="M600,270 L660,265 L675,305 L660,330 L620,335 L600,310 Z" fill="rgba(58,130,196,0.2)" stroke="rgba(58,130,196,0.4)" stroke-width="1"/>
-        <!-- Russia/Central Asia -->
-        <path d="M420,50 L600,40 L620,80 L580,100 L440,105 L410,75 Z" fill="rgba(58,130,196,0.1)" stroke="rgba(58,130,196,0.2)" stroke-width="1"/>
-
-        <!-- Export dots with rings -->
-        <!-- UAE -->
-        <circle cx="462" cy="138" r="5" fill="#c9a84c" opacity="0.95"/>
-        <circle cx="462" cy="138" r="5" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.6"><animate attributeName="r" from="5" to="16" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.7" to="0" dur="2s" repeatCount="indefinite"/></circle>
-        <!-- Saudi Arabia -->
-        <circle cx="450" cy="148" r="5" fill="#c9a84c" opacity="0.95"/>
-        <circle cx="450" cy="148" r="5" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.6"><animate attributeName="r" from="5" to="16" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.7" to="0" dur="2.4s" repeatCount="indefinite"/></circle>
-        <!-- India -->
-        <circle cx="528" cy="165" r="6" fill="#c9a84c" opacity="1"/>
-        <circle cx="528" cy="165" r="6" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.8"><animate attributeName="r" from="6" to="18" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.8" to="0" dur="1.8s" repeatCount="indefinite"/></circle>
-        <!-- UK -->
-        <circle cx="362" cy="82" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Germany -->
-        <circle cx="382" cy="80" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- France -->
-        <circle cx="372" cy="88" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- South Africa -->
-        <circle cx="384" cy="258" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Nigeria -->
-        <circle cx="368" cy="195" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Kenya -->
-        <circle cx="410" cy="210" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Australia -->
-        <circle cx="638" cy="302" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Singapore -->
-        <circle cx="608" cy="196" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Mauritius -->
-        <circle cx="450" cy="248" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Sri Lanka -->
-        <circle cx="535" cy="188" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Italy -->
-        <circle cx="390" cy="95" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Qatar -->
-        <circle cx="468" cy="150" r="4" fill="#3a82c4" opacity="0.9"/>
-        <!-- Bahrain/Kuwait -->
-        <circle cx="472" cy="143" r="4" fill="#3a82c4" opacity="0.9"/>
-
-        <!-- Labels -->
-        <text x="528" y="155" fill="#c9a84c" font-size="8" font-family="monospace" text-anchor="middle" font-weight="bold">INDIA</text>
-        <text x="462" y="128" fill="#c9a84c" font-size="7" font-family="monospace" text-anchor="middle">MIDDLE EAST</text>
-        <text x="375" y="73" fill="#8a9099" font-size="7" font-family="monospace" text-anchor="middle">EUROPE</text>
-        <text x="390" y="278" fill="#8a9099" font-size="7" font-family="monospace" text-anchor="middle">AFRICA</text>
-        <text x="638" y="320" fill="#8a9099" font-size="7" font-family="monospace" text-anchor="middle">AUSTRALIA</text>
-        <text x="608" y="210" fill="#8a9099" font-size="7" font-family="monospace" text-anchor="middle">SE ASIA</text>
+        <rect width="800" height="420" fill="rgba(245,240,232,0.02)"/>
+        <path d="M80,80 L160,70 L180,90 L170,140 L140,160 L110,150 L90,120 Z" fill="rgba(184,145,74,0.08)" stroke="rgba(184,145,74,0.2)" stroke-width="1"/>
+        <path d="M140,200 L180,195 L195,230 L185,290 L160,310 L135,280 L130,240 Z" fill="rgba(184,145,74,0.08)" stroke="rgba(184,145,74,0.2)" stroke-width="1"/>
+        <path d="M350,70 L410,65 L420,90 L405,110 L370,115 L345,100 Z" fill="rgba(184,145,74,0.15)" stroke="rgba(184,145,74,0.35)" stroke-width="1"/>
+        <path d="M355,140 L410,135 L425,175 L415,240 L390,265 L360,255 L345,210 L340,170 Z" fill="rgba(184,145,74,0.1)" stroke="rgba(184,145,74,0.25)" stroke-width="1"/>
+        <path d="M430,115 L480,110 L490,145 L465,160 L435,155 Z" fill="rgba(184,145,74,0.22)" stroke="rgba(184,145,74,0.5)" stroke-width="1.5"/>
+        <path d="M510,140 L540,135 L550,165 L535,195 L515,185 L505,165 Z" fill="rgba(184,145,74,0.38)" stroke="rgba(184,145,74,0.85)" stroke-width="2"/>
+        <path d="M580,160 L620,150 L635,175 L620,195 L590,190 Z" fill="rgba(184,145,74,0.1)" stroke="rgba(184,145,74,0.22)" stroke-width="1"/>
+        <path d="M600,270 L660,265 L675,305 L660,330 L620,335 L600,310 Z" fill="rgba(184,145,74,0.08)" stroke="rgba(184,145,74,0.2)" stroke-width="1"/>
+        <path d="M420,50 L600,40 L620,80 L580,100 L440,105 L410,75 Z" fill="rgba(184,145,74,0.05)" stroke="rgba(184,145,74,0.12)" stroke-width="1"/>
+        <!-- Animated export dots -->
+        <circle cx="462" cy="138" r="5" fill="#B8914A" opacity="0.95"/>
+        <circle cx="462" cy="138" r="5" fill="none" stroke="#B8914A" stroke-width="1.5" opacity="0.6"><animate attributeName="r" from="5" to="16" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.7" to="0" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="450" cy="148" r="5" fill="#B8914A" opacity="0.95"/>
+        <circle cx="450" cy="148" r="5" fill="none" stroke="#B8914A" stroke-width="1.5" opacity="0.6"><animate attributeName="r" from="5" to="16" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.7" to="0" dur="2.4s" repeatCount="indefinite"/></circle>
+        <circle cx="528" cy="165" r="6" fill="#B8914A" opacity="1"/>
+        <circle cx="528" cy="165" r="6" fill="none" stroke="#B8914A" stroke-width="2" opacity="0.8"><animate attributeName="r" from="6" to="18" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" from="0.8" to="0" dur="1.8s" repeatCount="indefinite"/></circle>
+        <circle cx="362" cy="82" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="382" cy="80" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="372" cy="88" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="384" cy="258" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="368" cy="195" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="410" cy="210" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="638" cy="302" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="608" cy="196" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="450" cy="248" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="535" cy="188" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="390" cy="95" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="468" cy="150" r="4" fill="#B8914A" opacity="0.7"/>
+        <circle cx="472" cy="143" r="4" fill="#B8914A" opacity="0.7"/>
+        <text x="528" y="155" fill="#B8914A" font-size="8" font-family="monospace" text-anchor="middle" font-weight="bold">INDIA</text>
+        <text x="462" y="128" fill="#B8914A" font-size="7" font-family="monospace" text-anchor="middle">MIDDLE EAST</text>
+        <text x="375" y="72" fill="rgba(168,158,142,0.6)" font-size="7" font-family="monospace" text-anchor="middle">EUROPE</text>
+        <text x="390" y="278" fill="rgba(168,158,142,0.6)" font-size="7" font-family="monospace" text-anchor="middle">AFRICA</text>
+        <text x="638" y="320" fill="rgba(168,158,142,0.6)" font-size="7" font-family="monospace" text-anchor="middle">AUSTRALIA</text>
+        <text x="608" y="210" fill="rgba(168,158,142,0.6)" font-size="7" font-family="monospace" text-anchor="middle">SE ASIA</text>
       </svg>
-      <div style="padding:0.8rem 1.2rem;border-top:1px solid rgba(255,255,255,0.07);display:flex;gap:1.5rem;">
-        <div style="display:flex;align-items:center;gap:0.5rem;font-family:monospace;font-size:0.62rem;color:var(--gold);letter-spacing:0.1em;">
-          <div style="width:10px;height:10px;border-radius:50%;background:var(--gold);"></div> Primary Markets
-        </div>
-        <div style="display:flex;align-items:center;gap:0.5rem;font-family:monospace;font-size:0.62rem;color:var(--steel-lt);letter-spacing:0.1em;">
-          <div style="width:10px;height:10px;border-radius:50%;background:var(--blue-lt);"></div> Active Markets
-        </div>
-      </div>
     </div>
     <div>
-      <div class="countries-panel">
-        <div class="region-card">
-          <div class="region-name">🌙 Middle East</div>
-          <div class="region-countries">UAE · Saudi Arabia · Qatar · Kuwait · Bahrain</div>
-        </div>
-        <div class="region-card">
-          <div class="region-name">🌍 Africa</div>
-          <div class="region-countries">South Africa · Nigeria · Kenya · Mauritius</div>
-        </div>
-        <div class="region-card">
-          <div class="region-name">🌐 Europe</div>
-          <div class="region-countries">UK · Germany · Italy · France–Marsellies</div>
-        </div>
-        <div class="region-card">
-          <div class="region-name">🌏 Asia Pacific</div>
-          <div class="region-countries">Singapore · Sri Lanka · Australia · Far East</div>
-        </div>
-        <div class="region-card">
-          <div class="region-name">🌊 Caribbean</div>
-          <div class="region-countries">Caribbean Islands &amp; surrounding regions</div>
-        </div>
+      <div class="regions-col">
+        <div class="region-row"><div class="region-name-txt">🌙 Middle East</div><div class="region-countries-txt">UAE · Saudi Arabia · Qatar · Kuwait · Bahrain</div></div>
+        <div class="region-row"><div class="region-name-txt">🌍 Africa</div><div class="region-countries-txt">South Africa · Nigeria · Kenya · Mauritius</div></div>
+        <div class="region-row"><div class="region-name-txt">🌐 Europe</div><div class="region-countries-txt">UK · Germany · Italy · France</div></div>
+        <div class="region-row"><div class="region-name-txt">🌏 Asia Pacific</div><div class="region-countries-txt">Singapore · Sri Lanka · Australia · Far East</div></div>
+        <div class="region-row"><div class="region-name-txt">🌊 Caribbean</div><div class="region-countries-txt">Caribbean Islands &amp; surrounding regions</div></div>
       </div>
-      <div class="export-badge rv">
-        <div class="export-badge-num">40+</div>
-        <div class="export-badge-label">Countries — 100% Export Oriented Unit</div>
+      <div class="export-cta-box">
+        <div class="export-cta-num">40+</div>
+        <div class="export-cta-lbl">Countries — 100% Export Oriented Unit</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ─── QUALITY ─── -->
+<!-- ── QUALITY ── -->
 <section id="quality">
-  <div class="tag">Quality &amp; Manufacturing</div>
-  <h2 class="section-title">Built to <em>World Standards</em></h2>
-  <p class="lead" style="margin-top:0.8rem;">Every product manufactured at Bharat Impex adheres to British Standard Specifications, with in-house quality control at every production stage.</p>
-  <div class="quality-grid rv">
+  <div class="quality-intro">
+    <div class="rv-l">
+      <div class="eyebrow">Quality &amp; Manufacturing</div>
+      <h2 class="display-title">Built to <em>World Standards</em></h2>
+    </div>
+    <p class="body-text rv-r" style="padding-top:1.5rem;">Every product manufactured at Bharat Impex adheres to British Standard Specifications, with in-house quality control at every production stage.</p>
+  </div>
+  <div class="quality-cards rv">
     <div class="q-card">
       <div class="q-num">01</div>
       <div class="q-title">ISO 9001:2015</div>
@@ -850,275 +1484,180 @@ footer{background:var(--ink);border-top:1px solid rgba(255,255,255,0.06);}
     <div class="q-card">
       <div class="q-num">03</div>
       <div class="q-title">Advanced Machinery</div>
-      <div class="q-desc">State-of-the-art CNC and precision machining equipment, fully loaded with the latest technology for tight tolerances.</div>
+      <div class="q-desc">State-of-the-art CNC and precision machining, fully loaded with the latest technology for tight tolerances.</div>
     </div>
     <div class="q-card">
       <div class="q-num">04</div>
       <div class="q-title">BIS &amp; CE Marked</div>
-      <div class="q-desc">Products carry BIS certification (India) and CE marking (Europe), meeting regulatory requirements in target export markets.</div>
+      <div class="q-desc">Products carry BIS certification (India) and CE marking (Europe), meeting regulatory requirements in all export markets.</div>
     </div>
   </div>
-  <div class="cert-strip rv">
-    <div class="cert-strip-label">Certifications &amp; Standards</div>
-    <div class="cert-pills">
-      <div class="cert-pill">ISO 9001:2015</div>
-      <div class="cert-pill">CE Marked</div>
-      <div class="cert-pill">BIS Certified</div>
-      <div class="cert-pill">British Standard</div>
-      <div class="cert-pill">WRAS Compliant</div>
-      <div class="cert-pill">RoHS</div>
+  <div class="cert-row rv">
+    <div class="cert-lbl">Certifications &amp; Standards</div>
+    <div class="cert-tags">
+      <div class="cert-tag">ISO 9001:2015</div>
+      <div class="cert-tag">CE Marked</div>
+      <div class="cert-tag">BIS Certified</div>
+      <div class="cert-tag">British Standard</div>
+      <div class="cert-tag">WRAS Compliant</div>
+      <div class="cert-tag">RoHS</div>
     </div>
   </div>
 </section>
 
-<!-- ─── PROCESS ─── -->
+<!-- ── PROCESS ── -->
 <section id="process">
-  <div class="tag">How We Work</div>
-  <h2 class="section-title">From <em>Enquiry</em> to Delivery</h2>
-  <div class="process-steps rv">
-    <div class="proc-step">
-      <div class="proc-dot">1</div>
-      <div class="proc-label">Enquiry<br>&amp; RFQ</div>
+  <div class="eyebrow">How We Work</div>
+  <h2 class="display-title rv">From <em>Enquiry</em> to Delivery</h2>
+  <div class="process-row rv">
+    <div class="proc-cell">
+      <div class="proc-n">1</div>
+      <div class="proc-lbl">Enquiry &amp; RFQ</div>
       <div class="proc-sub">WhatsApp / Email</div>
     </div>
-    <div class="proc-step">
-      <div class="proc-dot">2</div>
-      <div class="proc-label">Catalogue<br>Selection</div>
+    <div class="proc-cell">
+      <div class="proc-n">2</div>
+      <div class="proc-lbl">Catalogue Selection</div>
       <div class="proc-sub">1200+ SKUs</div>
     </div>
-    <div class="proc-step">
-      <div class="proc-dot">3</div>
-      <div class="proc-label">Sampling<br>&amp; Approval</div>
+    <div class="proc-cell">
+      <div class="proc-n">3</div>
+      <div class="proc-lbl">Sampling &amp; Approval</div>
       <div class="proc-sub">Custom if needed</div>
     </div>
-    <div class="proc-step">
-      <div class="proc-dot">4</div>
-      <div class="proc-label">Order<br>Confirmation</div>
+    <div class="proc-cell">
+      <div class="proc-n">4</div>
+      <div class="proc-lbl">Order Confirmation</div>
       <div class="proc-sub">MOQ flexible</div>
     </div>
-    <div class="proc-step">
-      <div class="proc-dot">5</div>
-      <div class="proc-label">Production<br>&amp; QC</div>
+    <div class="proc-cell">
+      <div class="proc-n">5</div>
+      <div class="proc-lbl">Production &amp; QC</div>
       <div class="proc-sub">ISO certified</div>
     </div>
-    <div class="proc-step">
-      <div class="proc-dot">6</div>
-      <div class="proc-label">Shipment<br>&amp; Delivery</div>
+    <div class="proc-cell">
+      <div class="proc-n">6</div>
+      <div class="proc-lbl">Shipment &amp; Delivery</div>
       <div class="proc-sub">FOB Delhi / CIF</div>
     </div>
   </div>
 </section>
 
-<!-- ─── TESTIMONIALS ─── -->
+<!-- ── TESTIMONIALS ── -->
 <section id="testimonials">
-  <div class="tag" style="color:var(--gold);">Client Testimonials</div>
-  <h2 class="section-title light">Trusted by <em>Buyers</em> Worldwide</h2>
-  <div class="testi-slider">
+  <div class="eyebrow" style="color:var(--brass);">Client Testimonials</div>
+  <h2 class="display-title on-dark rv">Trusted by <em>Buyers</em> Worldwide</h2>
+  <div class="testi-wrap">
     <div class="testi-track" id="testiTrack">
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <div class="testi-text">"Bharat Impex has been our reliable supplier for over 8 years. Their chrome fittings are consistently excellent in quality and finish. Fast delivery and responsive team make them our first choice from India."</div>
-        <div class="testi-meta">
-          <div class="testi-avatar">AH</div>
-          <div><div class="testi-name">Ahmed Al-Hamdan</div><div class="testi-loc">Building Materials Distributor, UAE</div></div>
-        </div>
-      </div>
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <div class="testi-text">"We have sourced our private label bathroom fittings from Bharat Impex for 5 years. Their OEM capability, flexibility on designs, and adherence to British standards make them stand out among Indian exporters."</div>
-        <div class="testi-meta">
-          <div class="testi-avatar">MK</div>
-          <div><div class="testi-name">Michael Kowalski</div><div class="testi-loc">Sanitary Ware Importer, Germany</div></div>
-        </div>
-      </div>
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <div class="testi-text">"Quality products at very competitive prices. Bharat Impex supplies our chain of hardware stores across East Africa. ISO certified, always on time, and excellent packaging for sea freight."</div>
-        <div class="testi-meta">
-          <div class="testi-avatar">JO</div>
-          <div><div class="testi-name">James Ochieng</div><div class="testi-loc">Hardware Chain Owner, Kenya</div></div>
-        </div>
-      </div>
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <div class="testi-text">"Superb range of PVD gold and matte black fittings. Our luxury hotel projects now exclusively use Bharat Impex products. They can do custom finishes and handle large project quantities with ease."</div>
-        <div class="testi-meta">
-          <div class="testi-avatar">RP</div>
-          <div><div class="testi-name">Rajesh Patel</div><div class="testi-loc">Interior Contractor, Mauritius</div></div>
-        </div>
-      </div>
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <div class="testi-text">"Been importing from Bharat Impex for our Singapore and SE Asia distribution network. Excellent pricing for the quality offered, and their export team handles all documentation professionally."</div>
-        <div class="testi-meta">
-          <div class="testi-avatar">LC</div>
-          <div><div class="testi-name">Linda Chen</div><div class="testi-loc">Plumbing Supplies Distributor, Singapore</div></div>
-        </div>
-      </div>
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <div class="testi-text">"Bharat Impex is our go-to source for economy to premium segment bathroom fittings. Their 1200+ SKU range means we can source almost everything from one supplier. Highly recommended."</div>
-        <div class="testi-meta">
-          <div class="testi-avatar">KA</div>
-          <div><div class="testi-name">Khalid Al-Rashidi</div><div class="testi-loc">Sanitary Ware Wholesaler, Saudi Arabia</div></div>
-        </div>
-      </div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-quote">"Bharat Impex has been our reliable supplier for over 8 years. Their chrome fittings are consistently excellent in quality and finish. Fast delivery and responsive team make them our first choice from India."</div><div class="testi-byline"><div class="testi-init">AH</div><div><div class="testi-who">Ahmed Al-Hamdan</div><div class="testi-loc">Building Materials Distributor, UAE</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-quote">"We have sourced our private label bathroom fittings from Bharat Impex for 5 years. Their OEM capability, flexibility on designs, and adherence to British standards make them stand out among Indian exporters."</div><div class="testi-byline"><div class="testi-init">MK</div><div><div class="testi-who">Michael Kowalski</div><div class="testi-loc">Sanitary Ware Importer, Germany</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-quote">"Quality products at very competitive prices. Bharat Impex supplies our chain of hardware stores across East Africa. ISO certified, always on time, and excellent packaging for sea freight."</div><div class="testi-byline"><div class="testi-init">JO</div><div><div class="testi-who">James Ochieng</div><div class="testi-loc">Hardware Chain Owner, Kenya</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-quote">"Superb range of PVD gold and matte black fittings. Our luxury hotel projects now exclusively use Bharat Impex products. They can do custom finishes and handle large project quantities with ease."</div><div class="testi-byline"><div class="testi-init">RP</div><div><div class="testi-who">Rajesh Patel</div><div class="testi-loc">Interior Contractor, Mauritius</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-quote">"Been importing from Bharat Impex for our Singapore and SE Asia distribution network. Excellent pricing for the quality offered, and their export team handles all documentation professionally."</div><div class="testi-byline"><div class="testi-init">LC</div><div><div class="testi-who">Linda Chen</div><div class="testi-loc">Plumbing Supplies Distributor, Singapore</div></div></div></div>
+      <div class="testi-card"><div class="testi-stars">★★★★★</div><div class="testi-quote">"Bharat Impex is our go-to source for economy to premium segment bathroom fittings. Their 1200+ SKU range means we can source almost everything from one supplier. Highly recommended."</div><div class="testi-byline"><div class="testi-init">KA</div><div><div class="testi-who">Khalid Al-Rashidi</div><div class="testi-loc">Sanitary Ware Wholesaler, Saudi Arabia</div></div></div></div>
     </div>
   </div>
-  <div class="testi-nav" id="testiNav"></div>
+  <div class="testi-dots" id="testiNav"></div>
 </section>
 
-<!-- ─── CATALOGUE ─── -->
-<section id="catalogue">
-  <div class="cat-inner rv">
-    <div class="cat-text">
-      <h2>Get Our Full Product <em>Catalogue</em></h2>
-      <p>1200+ SKUs across faucets, mixers, shower systems, accessories &amp; brass fittings. Available in Chrome, PVD Gold, Matte Black &amp; custom finishes. Prices on request.</p>
-    </div>
-    <div class="cat-actions">
-      <button class="cat-btn-wa" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20request%20your%20complete%20product%20catalogue%20with%20price%20list.%20Please%20share%20the%20PDF%20catalogue.','_blank')">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
-        WhatsApp for Catalogue
-      </button>
-      <button class="cat-btn-primary" onclick="document.getElementById('inquiry').scrollIntoView({behavior:'smooth'})">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        Submit Enquiry Form
-      </button>
-    </div>
+<!-- ── CATALOGUE CTA ── -->
+<section id="catalogue-cta">
+  <div class="cat-text rv-l">
+    <h2>Get Our Full Product <em style="font-style:italic;color:var(--brass);">Catalogue</em></h2>
+    <p>1200+ SKUs across faucets, mixers, shower systems, accessories &amp; brass fittings. Available in Chrome, PVD Gold, Matte Black &amp; custom finishes. Prices on request.</p>
+  </div>
+  <div class="cat-actions rv-r">
+    <button class="btn btn-brass" onclick="window.open('https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20request%20your%20complete%20product%20catalogue%20with%20price%20list.%20Please%20share%20the%20PDF%20catalogue.','_blank')">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+      WhatsApp for Catalogue
+    </button>
+    <button class="btn btn-outline-dark" onclick="document.getElementById('inquiry').scrollIntoView({behavior:'smooth'})">Submit Enquiry Form</button>
   </div>
 </section>
 
-<!-- ─── INQUIRY ─── -->
+<!-- ── INQUIRY ── -->
 <section id="inquiry">
   <div class="inq-left rv-l">
-    <div class="tag">Contact Us</div>
-    <h2 class="section-title">Get in <em>Touch</em></h2>
-    <p class="lead" style="margin-top:0.8rem;">Send us your requirements and our dedicated export executive will respond within 4 business hours.</p>
-    <div class="contact-cards">
-      <div class="contact-card">
-        <div class="cc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#c9a84c" stroke-width="2"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#c9a84c" stroke-width="2"/></svg></div>
-        <div>
-          <div class="cc-label">Address</div>
-          <div class="cc-val">3706, Gali Barna, Bara Tooti, Sadar Bazaar<br>New Delhi — 110006, India</div>
-        </div>
+    <div class="eyebrow">Contact Us</div>
+    <h2 class="display-title">Get in <em>Touch</em></h2>
+    <p class="body-text" style="margin-top:0.8rem;">Send us your requirements and our dedicated export executive will respond within 4 business hours.</p>
+    <div class="contact-items">
+      <div class="contact-row">
+        <div class="contact-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#B8914A" stroke-width="1.8"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#B8914A" stroke-width="1.8"/></svg></div>
+        <div><div class="contact-lbl">Address</div><div class="contact-val">3706, Gali Barna, Bara Tooti, Sadar Bazaar<br>New Delhi — 110006, India</div></div>
       </div>
-      <div class="contact-card">
-        <div class="cc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#c9a84c" stroke-width="2"/></svg></div>
-        <div>
-          <div class="cc-label">Phone / WhatsApp</div>
-          <div class="cc-val"><a href="tel:+919871148880">+91 98711 48880</a> &nbsp;|&nbsp; <a href="https://wa.me/919871148880" target="_blank">WhatsApp</a></div>
-        </div>
+      <div class="contact-row">
+        <div class="contact-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#B8914A" stroke-width="1.8"/></svg></div>
+        <div><div class="contact-lbl">Phone / WhatsApp</div><div class="contact-val"><a href="tel:+919871148880">+91 98711 48880</a></div></div>
       </div>
-      <div class="contact-card">
-        <div class="cc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <div>
-          <div class="cc-label">Email</div>
-          <div class="cc-val"><a href="mailto:export@bharatimpex.com">export@bharatimpex.com</a></div>
-        </div>
+      <div class="contact-row">
+        <div class="contact-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#B8914A" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <div><div class="contact-lbl">Email</div><div class="contact-val"><a href="mailto:export@bharatimpex.com">export@bharatimpex.com</a></div></div>
       </div>
-      <div class="contact-card">
-        <div class="cc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#c9a84c" stroke-width="2"/></svg></div>
-        <div>
-          <div class="cc-label">Business Hours</div>
-          <div class="cc-val">Mon – Sat: 10:00 AM – 6:00 PM IST</div>
-        </div>
-      </div>
-      <div class="contact-card">
-        <div class="cc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9" stroke="#c9a84c" stroke-width="2"/></svg></div>
-        <div>
-          <div class="cc-label">Website</div>
-          <div class="cc-val"><a href="http://www.bharatimpex.com" target="_blank">www.bharatimpex.com</a></div>
-        </div>
+      <div class="contact-row">
+        <div class="contact-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#B8914A" stroke-width="1.8"/></svg></div>
+        <div><div class="contact-lbl">Hours</div><div class="contact-val">Mon – Sat: 10:00 AM – 6:00 PM IST</div></div>
       </div>
     </div>
-    <div style="margin-top:1.5rem;border-radius:var(--r);overflow:hidden;border:1px solid rgba(0,0,0,0.1);box-shadow:var(--shadow-sm);">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0403491479033!2d77.21273049999999!3d28.6585105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd72b0c00001%3A0x1395631c1a6e093f!2sBharat%20Impex!5e0!3m2!1sen!2sin!4v1779474916419!5m2!1sen!2sin" width="100%" height="240" style="border:0;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bharat Impex Location"></iframe>
+    <div class="inq-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0403491479033!2d77.21273049999999!3d28.6585105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd72b0c00001%3A0x1395631c1a6e093f!2sBharat%20Impex!5e0!3m2!1sen!2sin!4v1779474916419!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
     </div>
     <div style="margin-top:1.5rem;">
-      <a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20enquire%20about%20your%20products%20and%20export%20pricing." class="btn btn-wa" target="_blank">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+      <a href="https://wa.me/919871148880" class="btn btn-wa" target="_blank">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
         Chat on WhatsApp
       </a>
     </div>
   </div>
   <div class="inq-right rv-r">
-    <div class="tag">Send Enquiry</div>
-    <h3 style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:600;color:var(--ink);margin-bottom:1.5rem;">Request a Quote</h3>
-    <div class="form-grid">
-      <div class="form-group">
-        <label class="form-label">Full Name *</label>
-        <input type="text" class="form-input" id="fi-name" placeholder="Your name">
-      </div>
-      <div class="form-group">
-        <label class="form-label">Company *</label>
-        <input type="text" class="form-input" id="fi-company" placeholder="Company name">
-      </div>
-      <div class="form-group">
-        <label class="form-label">Country *</label>
-        <select class="form-select" id="fi-country">
-          <option value="">Select country</option>
-          <option>United Arab Emirates</option><option>Saudi Arabia</option><option>Qatar</option>
-          <option>Kuwait</option><option>Bahrain</option><option>Oman</option>
-          <option>United Kingdom</option><option>Germany</option><option>France</option>
-          <option>Italy</option><option>Spain</option><option>Netherlands</option>
-          <option>Australia</option><option>Singapore</option><option>Sri Lanka</option>
-          <option>Nigeria</option><option>Kenya</option><option>South Africa</option>
-          <option>Mauritius</option><option>United States</option><option>Canada</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label class="form-label">Email *</label>
-        <input type="email" class="form-input" id="fi-email" placeholder="your@email.com">
-      </div>
-      <div class="form-group">
-        <label class="form-label">Phone / WhatsApp</label>
-        <input type="tel" class="form-input" id="fi-phone" placeholder="+1 234 567 8900">
-      </div>
-      <div class="form-group">
-        <label class="form-label">Product Category</label>
-        <select class="form-select" id="fi-product">
-          <option value="">Select category</option>
-          <option>Faucets &amp; Taps</option><option>Basin Mixers</option>
-          <option>Shower Systems</option><option>Bath Accessories</option>
-          <option>Brass Fittings</option><option>Sanitary Ware</option>
-          <option>OEM / Private Label</option><option>Full Catalogue Request</option>
-          <option>Multiple Categories</option>
-        </select>
-      </div>
-      <div class="form-group full">
-        <label class="form-label">Message / Requirements</label>
-        <textarea class="form-textarea" id="fi-message" placeholder="Tell us your requirements — quantity, specifications, target market, finishes needed..."></textarea>
-      </div>
-      <div class="form-actions">
-        <button class="form-submit" onclick="submitForm()">Submit Enquiry</button>
-        <a class="form-wa-btn" id="waFormBtn" href="#" onclick="sendWhatsAppEnquiry(event)" target="_blank">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
-          Send via WhatsApp
-        </a>
-        <p class="form-note">⚡ Average response: under 4 business hours. A dedicated export executive will be assigned to your enquiry.</p>
+    <div class="form-card">
+      <div class="form-title">Request a Quote</div>
+      <div class="form-sub">Our export executive responds within 4 business hours.</div>
+      <div class="form-grid">
+        <div class="fg"><label>Full Name *</label><input type="text" id="fi-name" placeholder="Your name"></div>
+        <div class="fg"><label>Company *</label><input type="text" id="fi-company" placeholder="Company name"></div>
+        <div class="fg"><label>Country *</label>
+          <select id="fi-country">
+            <option value="">Select country</option>
+            <option>United Arab Emirates</option><option>Saudi Arabia</option><option>Qatar</option><option>Kuwait</option><option>Bahrain</option><option>Oman</option><option>United Kingdom</option><option>Germany</option><option>France</option><option>Italy</option><option>Spain</option><option>Netherlands</option><option>Australia</option><option>Singapore</option><option>Sri Lanka</option><option>Nigeria</option><option>Kenya</option><option>South Africa</option><option>Mauritius</option><option>United States</option><option>Canada</option><option>Other</option>
+          </select>
+        </div>
+        <div class="fg"><label>Email *</label><input type="email" id="fi-email" placeholder="your@email.com"></div>
+        <div class="fg"><label>Phone / WhatsApp</label><input type="tel" id="fi-phone" placeholder="+1 234 567 8900"></div>
+        <div class="fg"><label>Product Category</label>
+          <select id="fi-product">
+            <option value="">Select category</option>
+            <option>Faucets &amp; Taps</option><option>Basin Mixers</option><option>Shower Systems</option><option>Bath Accessories</option><option>Brass Fittings</option><option>Sanitary Ware</option><option>OEM / Private Label</option><option>Full Catalogue Request</option><option>Multiple Categories</option>
+          </select>
+        </div>
+        <div class="fg full"><label>Message / Requirements</label><textarea id="fi-message" placeholder="Tell us your requirements — quantity, specifications, target market, finishes needed..."></textarea></div>
+        <div class="form-actions">
+          <button class="btn btn-espresso" onclick="submitForm()">Submit Enquiry</button>
+          <a class="btn btn-wa" href="#" onclick="sendWhatsAppEnquiry(event)" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+            Send via WhatsApp
+          </a>
+        </div>
+        <div class="form-note-txt">⚡ Average response under 4 business hours. A dedicated export executive will be assigned to your enquiry.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ─── FOOTER ─── -->
+<!-- ── FOOTER ── -->
 <footer>
-  <div class="footer-top">
+  <div class="footer-main">
     <div class="footer-brand">
-      <div class="fb-logo">
-        <div class="fb-logo-icon"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" width="44" height="44"><circle cx="22" cy="22" r="21" stroke="#c9a84c" stroke-width="1.5"/><path d="M22 10C22 10 14.5 18.5 14.5 24C14.5 28.4 17.8 31.5 22 31.5C26.2 31.5 29.5 28.4 29.5 24C29.5 18.5 22 10 22 10Z" fill="#c9a84c" fill-opacity="0.15" stroke="#c9a84c" stroke-width="1.8" stroke-linejoin="round"/><text x="22" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="9" font-weight="700" fill="#c9a84c" letter-spacing="0.5">BI</text></svg></div>
-        <div>
-          <div class="fb-name">BHARAT IMPEX</div>
-          <div class="fb-tagline">Manufacturer &amp; Exporter · Since 1972</div>
-        </div>
+      <div class="fb-brand-wrap">
+        <svg width="38" height="38" viewBox="0 0 44 44" fill="none"><rect x="1" y="1" width="42" height="42" stroke="#B8914A" stroke-width="1"/><path d="M22 9C22 9 15 18 15 24.5C15 28.9 18.1 32.5 22 32.5C25.9 32.5 29 28.9 29 24.5C29 18 22 9 22 9Z" fill="rgba(184,145,74,0.15)" stroke="#B8914A" stroke-width="1.2"/><text x="22" y="28" text-anchor="middle" font-family="Georgia,serif" font-size="7.5" font-weight="700" fill="#B8914A">BI</text></svg>
+        <div><div class="fb-name">Bharat Impex</div><div class="fb-est">Manufacturer &amp; Exporter · Since 1972</div></div>
       </div>
-      <p>Established 1972 · ISO 9001 certified manufacturer and exporter of premium brass bathroom fittings, faucets, mixers &amp; sanitary ware. Your trusted global partner across 40+ countries.</p>
+      <p>ISO 9001 certified manufacturer and exporter of premium brass bathroom fittings, faucets, mixers &amp; sanitary ware. Trusted by buyers across 40+ countries since 1972.</p>
       <div class="footer-certs">
-        <div class="footer-cert-pill">ISO 9001</div>
-        <div class="footer-cert-pill">CE Marked</div>
-        <div class="footer-cert-pill">BIS</div>
-        <div class="footer-cert-pill">British Std</div>
+        <div class="footer-cert">ISO 9001</div>
+        <div class="footer-cert">CE Marked</div>
+        <div class="footer-cert">BIS</div>
+        <div class="footer-cert">British Std</div>
       </div>
     </div>
     <div class="footer-col">
@@ -1130,7 +1669,7 @@ footer{background:var(--ink);border-top:1px solid rgba(255,255,255,0.06);}
         <li><a href="#products">Bath Accessories</a></li>
         <li><a href="#products">Brass Fittings</a></li>
         <li><a href="#products">Sanitary Ware</a></li>
-        <li><a href="#catalogue">Full Catalogue</a></li>
+        <li><a href="#catalogue-cta">Full Catalogue</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -1147,11 +1686,11 @@ footer{background:var(--ink);border-top:1px solid rgba(255,255,255,0.06);}
     </div>
     <div class="footer-col">
       <h4>Contact</h4>
-      <div class="footer-contact-item"><strong>Address</strong>3706, Gali Barna, Bara Tooti, Sadar Bazaar, New Delhi — 110006, India</div>
-      <div class="footer-contact-item"><strong>Phone / WhatsApp</strong><a href="tel:+919871148880" style="color:var(--steel);">+91 98711 48880</a></div>
-      <div class="footer-contact-item"><strong>Email</strong><a href="mailto:export@bharatimpex.com" style="color:var(--steel);">export@bharatimpex.com</a></div>
-      <div class="footer-contact-item"><strong>Website</strong><a href="http://www.bharatimpex.com" target="_blank" style="color:var(--steel);">www.bharatimpex.com</a></div>
-      <div class="footer-contact-item"><strong>Hours</strong>Mon – Sat: 10am – 6pm IST</div>
+      <div class="footer-contact-block"><strong>Address</strong>3706, Gali Barna, Bara Tooti,<br>Sadar Bazaar, New Delhi — 110006</div>
+      <div class="footer-contact-block"><strong>Phone / WhatsApp</strong><a href="tel:+919871148880">+91 98711 48880</a></div>
+      <div class="footer-contact-block"><strong>Email</strong><a href="mailto:export@bharatimpex.com">export@bharatimpex.com</a></div>
+      <div class="footer-contact-block"><strong>Website</strong><a href="http://www.bharatimpex.com" target="_blank">www.bharatimpex.com</a></div>
+      <div class="footer-contact-block"><strong>Hours</strong>Mon – Sat: 10am – 6pm IST</div>
     </div>
   </div>
   <div class="footer-bottom">
@@ -1161,145 +1700,70 @@ footer{background:var(--ink);border-top:1px solid rgba(255,255,255,0.06);}
       <a href="http://www.bharatimpex.com/global-presence.html" target="_blank">Global Presence</a>
       <a href="http://www.bharatimpex.com/become-distributor.html" target="_blank">Become Distributor</a>
     </div>
-    <div class="footer-social">
-      <a href="https://wa.me/919871148880" class="soc-btn wa-soc" target="_blank" title="WhatsApp">
+    <div class="footer-socials">
+      <a href="https://wa.me/919871148880" class="soc wa" target="_blank">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
       </a>
-      <a href="mailto:export@bharatimpex.com" class="soc-btn" title="Email">EM</a>
-      <a href="http://www.bharatimpex.com" class="soc-btn" target="_blank" title="Website">WB</a>
+      <a href="mailto:export@bharatimpex.com" class="soc">EM</a>
+      <a href="http://www.bharatimpex.com" class="soc" target="_blank">WB</a>
     </div>
   </div>
 </footer>
 
-<!-- ─── FLOATING WHATSAPP ─── -->
-<a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20enquire%20about%20your%20bathroom%20fittings%20products." class="float-wa" target="_blank" title="Chat on WhatsApp">
-  <div class="float-wa-tooltip">Chat on WhatsApp</div>
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+<!-- ── FLOAT WA ── -->
+<a href="https://wa.me/919871148880?text=Hello%20Bharat%20Impex%2C%20I%20would%20like%20to%20enquire%20about%20your%20bathroom%20fittings." class="float-wa-btn" target="_blank">
+  <div class="tooltip">Chat on WhatsApp</div>
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
 </a>
 
 <script>
-// ─── HERO SLIDER ───
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-const totalSlides = slides.length;
-const dotsContainer = document.getElementById('sliderDots');
-const counter = document.getElementById('slideCounter');
+// ── HERO BG LOAD ──
+const heroBg = document.getElementById('heroBg');
+const img = new Image();
+img.onload = () => {
+  heroBg.style.backgroundImage = "url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1600&q=85&auto=format&fit=crop')";
+  heroBg.classList.add('loaded');
+};
+img.src = 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1600&q=85&auto=format&fit=crop';
+heroBg.style.backgroundImage = "url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=60&auto=format&fit=crop')";
 
-// Build dots
-slides.forEach((_, i) => {
-  const d = document.createElement('div');
-  d.className = 'sdot' + (i === 0 ? ' active' : '');
-  d.onclick = () => goToSlide(i);
-  dotsContainer.appendChild(d);
-});
-
-function goToSlide(n) {
-  slides[currentSlide].classList.remove('active');
-  slides[currentSlide].classList.add('prev');
-  setTimeout(() => slides[currentSlide].classList.remove('prev'), 1100);
-  currentSlide = (n + totalSlides) % totalSlides;
-  slides[currentSlide].classList.add('active');
-  document.querySelectorAll('.sdot').forEach((d, i) => d.classList.toggle('active', i === currentSlide));
-  counter.textContent = String(currentSlide + 1).padStart(2,'0') + ' / ' + String(totalSlides).padStart(2,'0');
-}
-
-function nextSlide() { goToSlide(currentSlide + 1); }
-function prevSlide() { goToSlide(currentSlide - 1); }
-
-let sliderTimer = setInterval(nextSlide, 5500);
-document.getElementById('hero').addEventListener('mouseenter', () => clearInterval(sliderTimer));
-document.getElementById('hero').addEventListener('mouseleave', () => { sliderTimer = setInterval(nextSlide, 5500); });
-
-// Touch swipe on hero
-let touchStartX = 0;
-document.getElementById('hero').addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
-document.getElementById('hero').addEventListener('touchend', e => {
-  const dx = e.changedTouches[0].clientX - touchStartX;
-  if (Math.abs(dx) > 40) dx < 0 ? nextSlide() : prevSlide();
-});
-
-// ─── PRODUCT SLIDER ───
-let prodOffset = 0;
-const prodTrack = document.getElementById('productTrack');
-const prodCards = prodTrack.querySelectorAll('.product-card');
-const prodVisible = () => window.innerWidth <= 640 ? 1 : window.innerWidth <= 1100 ? 2 : 3;
-const prodMax = () => Math.max(0, prodCards.length - prodVisible());
-
-function slideProducts(dir) {
-  prodOffset = Math.max(0, Math.min(prodOffset + dir, prodMax()));
-  const pct = (100 / prodVisible()) * prodOffset;
-  prodTrack.style.transform = `translateX(-${pct}%)`;
-}
-
-// ─── TESTIMONIAL SLIDER ───
-let testiOffset = 0;
-const testiTrack = document.getElementById('testiTrack');
-const testiCards = testiTrack.querySelectorAll('.testi-card');
-const testiNavEl = document.getElementById('testiNav');
-const testiVis = () => window.innerWidth <= 1100 ? 1 : 3;
-const testiMax = () => Math.max(0, testiCards.length - testiVis());
-let testiGroups = Math.ceil(testiCards.length / (window.innerWidth <= 1100 ? 1 : 3));
-
-function buildTestiDots() {
-  testiNavEl.innerHTML = '';
-  const groups = Math.ceil(testiCards.length / testiVis());
-  for (let i = 0; i < groups; i++) {
-    const d = document.createElement('div');
-    d.className = 'tnav-dot' + (i === 0 ? ' active' : '');
-    d.onclick = () => goToTesti(i * testiVis());
-    testiNavEl.appendChild(d);
-  }
-}
-
-function goToTesti(idx) {
-  testiOffset = Math.max(0, Math.min(idx, testiMax()));
-  const pct = (100 / testiVis()) * testiOffset;
-  testiTrack.style.transform = `translateX(-${pct}%)`;
-  const groupIdx = Math.floor(testiOffset / testiVis());
-  document.querySelectorAll('.tnav-dot').forEach((d, i) => d.classList.toggle('active', i === groupIdx));
-}
-
-buildTestiDots();
-setInterval(() => { goToTesti((testiOffset + testiVis() > testiMax() ? 0 : testiOffset + testiVis())); }, 5000);
-
-// ─── NAV SCROLL ───
+// ── NAV SCROLL ──
 const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => {
-  nav.classList.toggle('scrolled', window.scrollY > 80);
+  nav.classList.toggle('solid', window.scrollY > 60);
 });
 
-// ─── MOBILE MENU ───
+// ── MOBILE MENU ──
 function toggleMenu() {
   document.getElementById('mobileMenu').classList.toggle('open');
   document.getElementById('menuOverlay').classList.toggle('open');
 }
 
-// ─── STAT COUNTER ───
+// ── STAT COUNTER ──
 function animateCount(el) {
   const target = parseInt(el.dataset.target);
   const suffix = el.dataset.suffix || '';
-  const duration = 1400;
+  const dur = 1400;
   const start = performance.now();
   function step(now) {
-    const progress = Math.min((now - start) / duration, 1);
-    const ease = 1 - Math.pow(1 - progress, 3);
+    const p = Math.min((now - start) / dur, 1);
+    const ease = 1 - Math.pow(1 - p, 3);
     el.textContent = Math.round(ease * target) + suffix;
-    if (progress < 1) requestAnimationFrame(step);
+    if (p < 1) requestAnimationFrame(step);
   }
   requestAnimationFrame(step);
 }
-
-const statsObs = new IntersectionObserver(entries => {
+const cntObs = new IntersectionObserver(entries => {
   entries.forEach(e => {
     if (e.isIntersecting) {
-      document.querySelectorAll('.stat-num[data-target]').forEach(animateCount);
-      statsObs.disconnect();
+      document.querySelectorAll('.stat-n[data-target]').forEach(animateCount);
+      cntObs.disconnect();
     }
   });
-}, { threshold: 0.3 });
-statsObs.observe(document.getElementById('stats'));
+}, { threshold:0.3 });
+cntObs.observe(document.getElementById('stats-band'));
 
-// ─── REVEAL ANIMATIONS ───
+// ── REVEAL ──
 const rvObs = new IntersectionObserver((entries) => {
   entries.forEach((e, i) => {
     if (e.isIntersecting) {
@@ -1307,11 +1771,48 @@ const rvObs = new IntersectionObserver((entries) => {
       rvObs.unobserve(e.target);
     }
   });
-}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
+}, { threshold:0.1, rootMargin:'0px 0px -50px 0px' });
 document.querySelectorAll('.rv, .rv-l, .rv-r').forEach(el => rvObs.observe(el));
 
-// ─── WHATSAPP FORM SEND ───
+// ── PRODUCT SLIDER ──
+let prodOffset = 0;
+const prodTrack = document.getElementById('productTrack');
+const prodCards = prodTrack.querySelectorAll('.prod-card');
+const prodVis = () => window.innerWidth <= 640 ? 1 : window.innerWidth <= 1100 ? 2 : 3;
+const prodMax = () => Math.max(0, prodCards.length - prodVis());
+function slideProducts(dir) {
+  prodOffset = Math.max(0, Math.min(prodOffset + dir, prodMax()));
+  prodTrack.style.transform = `translateX(-${(100 / prodVis()) * prodOffset}%)`;
+}
+
+// ── TESTIMONIAL SLIDER ──
+let testiOff = 0;
+const testiTrack = document.getElementById('testiTrack');
+const testiCards = testiTrack.querySelectorAll('.testi-card');
+const testiNav = document.getElementById('testiNav');
+const testiVis = () => window.innerWidth <= 1100 ? 1 : 3;
+const testiMax = () => Math.max(0, testiCards.length - testiVis());
+
+function buildTestiDots() {
+  testiNav.innerHTML = '';
+  const groups = Math.ceil(testiCards.length / testiVis());
+  for (let i = 0; i < groups; i++) {
+    const d = document.createElement('div');
+    d.className = 'tnav-dot' + (i === 0 ? ' active' : '');
+    d.onclick = () => goTesti(i * testiVis());
+    testiNav.appendChild(d);
+  }
+}
+function goTesti(idx) {
+  testiOff = Math.max(0, Math.min(idx, testiMax()));
+  testiTrack.style.transform = `translateX(-${(100 / testiVis()) * testiOff}%)`;
+  const g = Math.floor(testiOff / testiVis());
+  document.querySelectorAll('.tnav-dot').forEach((d, i) => d.classList.toggle('active', i === g));
+}
+buildTestiDots();
+setInterval(() => { goTesti(testiOff + testiVis() > testiMax() ? 0 : testiOff + testiVis()); }, 5200);
+
+// ── WHATSAPP FORM ──
 function sendWhatsAppEnquiry(e) {
   e.preventDefault();
   const name    = document.getElementById('fi-name').value.trim() || 'Not provided';
@@ -1321,13 +1822,9 @@ function sendWhatsAppEnquiry(e) {
   const phone   = document.getElementById('fi-phone').value.trim() || 'Not provided';
   const product = document.getElementById('fi-product').value || 'General Enquiry';
   const message = document.getElementById('fi-message').value.trim() || 'Please share catalogue and pricing.';
-
   const text = `Hello Bharat Impex,\n\nI would like to enquire about your products.\n\n*Name:* ${name}\n*Company:* ${company}\n*Country:* ${country}\n*Email:* ${email}\n*Phone:* ${phone}\n*Product Interest:* ${product}\n\n*Message:*\n${message}\n\nPlease revert at your earliest convenience.`;
-
   window.open('https://wa.me/919871148880?text=' + encodeURIComponent(text), '_blank');
 }
-
-// ─── FORM SUBMIT ───
 function submitForm() {
   const name  = document.getElementById('fi-name').value.trim();
   const email = document.getElementById('fi-email').value.trim();
@@ -1337,3 +1834,8 @@ function submitForm() {
 </script>
 </body>
 </html>
+HTMLEOF
+echo "Done. Lines: $(wc -l < /home/claude/bharatimpex_v2.html)"
+Output
+
+Done. Lines: 1835
