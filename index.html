@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharat Impex — Precision Bathroom Fittings for Global Markets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #0a0a0a;
+    --off-black: #111214;
+    --dark: #1a1c1f;
+    --mid: #2e3035;
+    --chrome: #c0c6d0;
+    --chrome-light: #e8eaed;
+    --chrome-dim: #7a8090;
+    --blue: #1a3a5c;
+    --blue-accent: #2d6fa3;
+    --blue-light: #4a9fd4;
+    --white: #f5f4f0;
+    --off-white: #ebebeb;
+    --cream: #faf9f6;
+    --gold: #b8982a;
+    --gold-light: #d4b44a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--cream);
+    color: var(--dark);
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    padding: 1.2rem 4rem;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(10,10,10,0.85);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(192,198,208,0.12);
+    transition: all 0.3s ease;
+  }
+  .nav-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.4rem; font-weight: 700; letter-spacing: 0.12em;
+    color: var(--chrome-light); text-decoration: none;
+    display: flex; align-items: center; gap: 0.6rem;
+  }
+  .nav-logo span { color: var(--blue-light); }
+  .nav-links { display: flex; gap: 2.2rem; list-style: none; }
+  .nav-links a {
+    color: var(--chrome); text-decoration: none;
+    font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--white); }
+  .nav-cta {
+    padding: 0.55rem 1.4rem; background: transparent;
+    border: 1px solid var(--chrome-dim); color: var(--chrome-light);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+    cursor: pointer; transition: all 0.2s; text-decoration: none;
+  }
+  .nav-cta:hover { background: var(--blue-accent); border-color: var(--blue-accent); color: white; }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    background: var(--off-black);
+    position: relative; overflow: hidden;
+    display: flex; align-items: center;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 70% 50%, rgba(45,111,163,0.18) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 40% at 20% 80%, rgba(26,58,92,0.25) 0%, transparent 50%),
+      linear-gradient(160deg, #0a0a0a 0%, #111827 50%, #0d1520 100%);
+  }
+  .hero-grid-overlay {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(192,198,208,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(192,198,208,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .hero-content {
+    position: relative; z-index: 2;
+    padding: 0 4rem;
+    max-width: 900px;
+    margin-top: 5rem;
+  }
+  .hero-eyebrow {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--blue-light); margin-bottom: 1.4rem;
+    display: flex; align-items: center; gap: 0.8rem;
+  }
+  .hero-eyebrow::before {
+    content: ''; display: block; width: 2.5rem; height: 1px; background: var(--blue-light);
+  }
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(3rem, 6vw, 5.5rem);
+    font-weight: 300; line-height: 1.06;
+    color: var(--chrome-light); margin-bottom: 1.4rem;
+  }
+  h1 em { font-style: italic; color: var(--white); }
+  .hero-sub {
+    font-size: 1rem; font-weight: 300; line-height: 1.7;
+    color: var(--chrome-dim); max-width: 520px; margin-bottom: 3rem;
+    letter-spacing: 0.02em;
+  }
+  .hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 5rem; }
+  .btn-primary {
+    padding: 1rem 2.4rem;
+    background: var(--blue-accent); color: white; border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.82rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase;
+    cursor: pointer; transition: all 0.25s; text-decoration: none; display: inline-block;
+  }
+  .btn-primary:hover { background: var(--blue-light); }
+  .btn-outline {
+    padding: 1rem 2.4rem;
+    background: transparent; color: var(--chrome-light);
+    border: 1px solid rgba(192,198,208,0.4);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.82rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase;
+    cursor: pointer; transition: all 0.25s; text-decoration: none; display: inline-block;
+  }
+  .btn-outline:hover { border-color: var(--chrome-light); color: white; }
+  .hero-stats {
+    display: flex; gap: 3rem;
+    border-top: 1px solid rgba(192,198,208,0.12);
+    padding-top: 2rem;
+  }
+  .stat-item { display: flex; flex-direction: column; gap: 0.2rem; }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.4rem; font-weight: 600; line-height: 1;
+    color: var(--chrome-light);
+  }
+  .stat-label {
+    font-size: 0.68rem; font-weight: 500; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--chrome-dim);
+  }
+  .hero-right {
+    position: absolute; right: 0; top: 0; bottom: 0; width: 45%;
+    background: linear-gradient(to right, transparent, rgba(26,58,92,0.06));
+    display: flex; align-items: center; justify-content: center;
+  }
+  .faucet-illustration {
+    width: 340px; height: 500px; position: relative;
+  }
+
+  /* ── SECTION DEFAULTS ── */
+  section { position: relative; }
+  .section-eyebrow {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.68rem; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--blue-accent); margin-bottom: 1rem;
+    display: flex; align-items: center; gap: 0.7rem;
+  }
+  .section-eyebrow::before { content:''; display:block; width:2rem; height:1px; background:var(--blue-accent); }
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    font-weight: 300; line-height: 1.1; color: var(--dark);
+  }
+  h2 em { font-style: italic; font-weight: 400; }
+  .section-lead {
+    font-size: 1rem; font-weight: 300; line-height: 1.75;
+    color: #555; max-width: 580px;
+  }
+
+  /* ── ABOUT ── */
+  #about {
+    padding: 8rem 4rem;
+    background: var(--cream);
+    display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center;
+  }
+  .about-visual {
+    position: relative; height: 520px;
+  }
+  .about-img-main {
+    position: absolute; left: 0; top: 0;
+    width: 75%; height: 80%;
+    background: linear-gradient(135deg, #1a3a5c 0%, #0d1520 100%);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+  }
+  .about-img-accent {
+    position: absolute; right: 0; bottom: 0;
+    width: 50%; height: 55%;
+    background: linear-gradient(135deg, #2e3035 0%, #1a1c1f 100%);
+    border: 3px solid var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+  }
+  .year-badge {
+    position: absolute; top: 2rem; right: 6rem;
+    width: 90px; height: 90px;
+    background: var(--gold);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    z-index: 2;
+  }
+  .year-badge .yr { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: white; line-height: 1; }
+  .year-badge .since { font-size: 0.55rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.8); margin-top: 2px; }
+  .about-text { display: flex; flex-direction: column; gap: 1.8rem; }
+  .about-text h2 { margin-bottom: 0.5rem; }
+  .features-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-top: 0.5rem; }
+  .feature-item { display: flex; gap: 0.8rem; align-items: flex-start; }
+  .feature-dot { width: 6px; height: 6px; background: var(--blue-accent); margin-top: 0.45rem; flex-shrink: 0; }
+  .feature-text { font-size: 0.85rem; font-weight: 400; color: #444; line-height: 1.5; }
+
+  /* ── PRODUCTS ── */
+  #products {
+    padding: 8rem 4rem;
+    background: var(--dark);
+  }
+  #products h2 { color: var(--chrome-light); }
+  #products .section-eyebrow { color: var(--blue-light); }
+  #products .section-eyebrow::before { background: var(--blue-light); }
+  .products-header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    margin-bottom: 3.5rem;
+  }
+  .product-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5px;
+  }
+  .product-card {
+    position: relative; overflow: hidden; cursor: pointer;
+    height: 340px;
+    background: var(--mid);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .product-card:hover { transform: translateY(-4px); }
+  .product-card:hover .product-overlay { opacity: 1; }
+  .product-card:hover .product-cta { opacity: 1; transform: translateY(0); }
+  .product-visual {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .product-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,10,10,0.95) 0%, rgba(45,111,163,0.3) 100%);
+    opacity: 0.6; transition: opacity 0.4s;
+  }
+  .product-info {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding: 1.8rem 1.5rem 1.5rem;
+  }
+  .product-cat {
+    font-size: 0.62rem; font-weight: 600; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--blue-light); margin-bottom: 0.4rem;
+  }
+  .product-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem; font-weight: 300; color: var(--white); line-height: 1.2;
+  }
+  .product-cta {
+    margin-top: 0.8rem;
+    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--blue-light);
+    opacity: 0; transform: translateY(8px); transition: all 0.3s 0.05s;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .product-cta::after { content: '→'; }
+
+  /* ── MAP / GLOBAL ── */
+  #global {
+    padding: 8rem 4rem;
+    background: var(--off-black);
+    overflow: hidden;
+  }
+  #global h2 { color: var(--chrome-light); }
+  #global .section-eyebrow { color: var(--blue-light); }
+  #global .section-eyebrow::before { background: var(--blue-light); }
+  .global-layout {
+    display: grid; grid-template-columns: 1fr 380px; gap: 4rem;
+    align-items: center; margin-top: 3rem;
+  }
+  .map-container {
+    position: relative; height: 400px;
+    background: rgba(26,58,92,0.12);
+    border: 1px solid rgba(74,159,212,0.15);
+    overflow: hidden;
+  }
+  .region-list { display: flex; flex-direction: column; gap: 1.2rem; }
+  .region-item {
+    padding: 1.2rem 1.5rem;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(192,198,208,0.08);
+    border-left: 3px solid var(--blue-accent);
+    transition: all 0.25s;
+    cursor: pointer;
+  }
+  .region-item:hover { background: rgba(45,111,163,0.12); border-left-color: var(--blue-light); }
+  .region-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--chrome); margin-bottom: 0.3rem;
+  }
+  .region-desc { font-size: 0.82rem; color: var(--chrome-dim); }
+
+  /* ── QUALITY / MANUFACTURING ── */
+  #quality {
+    padding: 8rem 4rem;
+    background: var(--cream);
+  }
+  .quality-grid {
+    display: grid; grid-template-columns: repeat(4,1fr); gap: 2rem;
+    margin-top: 3.5rem;
+  }
+  .quality-card {
+    padding: 2rem 1.6rem;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: white;
+    transition: all 0.3s;
+  }
+  .quality-card:hover { border-color: var(--blue-accent); transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); }
+  .q-icon {
+    width: 44px; height: 44px; margin-bottom: 1.2rem;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(45,111,163,0.08);
+  }
+  .q-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem; font-weight: 600; letter-spacing: 0.05em;
+    text-transform: uppercase; color: var(--dark); margin-bottom: 0.6rem;
+  }
+  .q-desc { font-size: 0.82rem; line-height: 1.65; color: #666; }
+  .certs-bar {
+    margin-top: 3rem; padding: 2rem 2.5rem;
+    background: var(--dark); color: var(--chrome);
+    display: flex; align-items: center; gap: 3rem;
+    flex-wrap: wrap;
+  }
+  .cert-label {
+    font-size: 0.65rem; font-weight: 600; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--chrome-dim);
+  }
+  .cert-badges { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  .cert-badge {
+    padding: 0.4rem 1rem;
+    border: 1px solid rgba(192,198,208,0.2);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; color: var(--chrome);
+  }
+
+  /* ── WHY US ── */
+  #why {
+    padding: 8rem 4rem;
+    background: var(--dark);
+  }
+  #why h2 { color: var(--chrome-light); }
+  #why .section-eyebrow { color: var(--blue-light); }
+  #why .section-eyebrow::before { background: var(--blue-light); }
+  .why-grid {
+    display: grid; grid-template-columns: repeat(3,1fr); gap: 0;
+    margin-top: 3.5rem;
+    border: 1px solid rgba(192,198,208,0.08);
+  }
+  .why-item {
+    padding: 2.5rem 2rem;
+    border-right: 1px solid rgba(192,198,208,0.08);
+    border-bottom: 1px solid rgba(192,198,208,0.08);
+    transition: background 0.3s;
+  }
+  .why-item:hover { background: rgba(45,111,163,0.08); }
+  .why-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem; font-weight: 300; color: rgba(74,159,212,0.25);
+    line-height: 1; margin-bottom: 1rem;
+  }
+  .why-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.95rem; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--chrome-light); margin-bottom: 0.6rem;
+  }
+  .why-desc { font-size: 0.82rem; line-height: 1.65; color: var(--chrome-dim); }
+
+  /* ── PROCESS ── */
+  #process {
+    padding: 8rem 4rem;
+    background: var(--cream);
+    overflow: hidden;
+  }
+  .process-steps {
+    display: grid; grid-template-columns: repeat(7,1fr);
+    gap: 0; margin-top: 3.5rem;
+    position: relative;
+  }
+  .process-steps::after {
+    content: ''; position: absolute;
+    top: 28px; left: 28px; right: 28px; height: 1px;
+    background: linear-gradient(90deg, var(--blue-accent), var(--blue-light), var(--blue-accent));
+  }
+  .process-step {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 1rem; text-align: center; position: relative; z-index: 1;
+    padding: 0 0.5rem;
+  }
+  .step-dot {
+    width: 56px; height: 56px;
+    background: var(--cream);
+    border: 2px solid var(--blue-accent);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem; font-weight: 600; color: var(--blue-accent);
+    transition: all 0.3s;
+  }
+  .process-step:hover .step-dot { background: var(--blue-accent); color: white; }
+  .step-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--dark); line-height: 1.3;
+    text-align: center;
+  }
+
+  /* ── TESTIMONIALS ── */
+  #testimonials {
+    padding: 8rem 4rem;
+    background: var(--off-black);
+  }
+  #testimonials h2 { color: var(--chrome-light); }
+  #testimonials .section-eyebrow { color: var(--blue-light); }
+  #testimonials .section-eyebrow::before { background: var(--blue-light); }
+  .testi-grid {
+    display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  .testi-card {
+    padding: 2rem;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(192,198,208,0.1);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s;
+  }
+  .testi-card:hover { border-color: rgba(74,159,212,0.3); background: rgba(74,159,212,0.06); }
+  .testi-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.05rem; font-style: italic; font-weight: 300;
+    color: var(--chrome); line-height: 1.7; margin-bottom: 1.5rem;
+  }
+  .testi-author { display: flex; align-items: center; gap: 0.8rem; }
+  .testi-avatar {
+    width: 36px; height: 36px; background: var(--blue);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.7rem; font-weight: 600; color: var(--blue-light);
+    font-family: 'Barlow Condensed', sans-serif; letter-spacing: 0.05em;
+  }
+  .testi-name { font-size: 0.8rem; font-weight: 600; color: var(--chrome); }
+  .testi-country { font-size: 0.72rem; color: var(--chrome-dim); }
+  .stars { color: var(--gold); font-size: 0.75rem; margin-bottom: 1rem; letter-spacing: 0.1em; }
+
+  /* ── INQUIRY ── */
+  #inquiry {
+    padding: 8rem 4rem;
+    background: var(--cream);
+    display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start;
+  }
+  .inquiry-text h2 { margin-bottom: 1.2rem; }
+  .inquiry-text .section-lead { margin-bottom: 2rem; }
+  .contact-item {
+    display: flex; gap: 0.8rem; align-items: center;
+    margin-bottom: 0.9rem;
+    font-size: 0.85rem; color: #555;
+  }
+  .contact-dot { width: 6px; height: 6px; background: var(--blue-accent); flex-shrink: 0; }
+  .inquiry-form { display: flex; flex-direction: column; gap: 1rem; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+  .form-label {
+    font-size: 0.68rem; font-weight: 600; letter-spacing: 0.15em;
+    text-transform: uppercase; color: #888;
+  }
+  .form-input, .form-select, .form-textarea {
+    padding: 0.85rem 1rem;
+    background: white; border: 1px solid rgba(0,0,0,0.12);
+    font-family: 'Barlow', sans-serif; font-size: 0.88rem; color: var(--dark);
+    transition: border-color 0.2s; outline: none;
+    -webkit-appearance: none;
+  }
+  .form-input:focus, .form-select:focus, .form-textarea:focus {
+    border-color: var(--blue-accent);
+  }
+  .form-select { cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.5rem; }
+  .form-textarea { resize: vertical; min-height: 100px; }
+  .whatsapp-btn {
+    display: flex; align-items: center; gap: 0.7rem;
+    padding: 0.85rem 1.5rem; background: #25D366; color: white; border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.82rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+    cursor: pointer; text-decoration: none; width: fit-content;
+    transition: background 0.2s;
+  }
+  .whatsapp-btn:hover { background: #1ebe5d; }
+  .form-actions { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem; }
+  .catalogue-link {
+    font-size: 0.78rem; font-weight: 500; letter-spacing: 0.08em;
+    color: var(--blue-accent); text-decoration: none; text-transform: uppercase;
+    border-bottom: 1px solid currentColor; padding-bottom: 1px;
+    transition: color 0.2s;
+  }
+  .catalogue-link:hover { color: var(--blue-light); }
+  .response-note {
+    margin-top: 1rem; padding: 0.8rem 1rem;
+    background: rgba(45,111,163,0.06); border-left: 3px solid var(--blue-accent);
+    font-size: 0.78rem; color: #666; line-height: 1.5;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--black);
+    border-top: 1px solid rgba(192,198,208,0.08);
+    padding: 4rem 4rem 2rem;
+  }
+  .footer-top {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(192,198,208,0.08);
+  }
+  .footer-brand h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.3rem; font-weight: 700; letter-spacing: 0.12em;
+    color: var(--chrome-light); margin-bottom: 0.8rem;
+  }
+  .footer-brand p { font-size: 0.82rem; line-height: 1.65; color: var(--chrome-dim); max-width: 280px; }
+  .footer-col h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--chrome); margin-bottom: 1rem;
+  }
+  .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+  .footer-col a {
+    font-size: 0.82rem; color: var(--chrome-dim); text-decoration: none; transition: color 0.2s;
+  }
+  .footer-col a:hover { color: var(--chrome); }
+  .footer-contact { display: flex; flex-direction: column; gap: 0.5rem; }
+  .footer-contact-item { font-size: 0.82rem; color: var(--chrome-dim); line-height: 1.5; }
+  .footer-contact-item strong { color: var(--chrome); }
+  .footer-bottom {
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 1rem;
+  }
+  .footer-copy { font-size: 0.75rem; color: var(--chrome-dim); }
+  .footer-social { display: flex; gap: 1rem; }
+  .social-link {
+    width: 34px; height: 34px; border: 1px solid rgba(192,198,208,0.15);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--chrome-dim); font-size: 0.7rem; font-weight: 700;
+    text-decoration: none; transition: all 0.2s;
+    font-family: 'Barlow Condensed', sans-serif; letter-spacing: 0.05em;
+  }
+  .social-link:hover { border-color: var(--blue-accent); color: var(--blue-light); }
+
+  /* ── FLOATING WHATSAPP ── */
+  .float-wa {
+    position: fixed; bottom: 2rem; right: 2rem; z-index: 200;
+    width: 56px; height: 56px; background: #25D366;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 24px rgba(37,211,102,0.4);
+    text-decoration: none; transition: transform 0.2s;
+    animation: waPulse 2.5s ease infinite;
+  }
+  .float-wa:hover { transform: scale(1.1); }
+  @keyframes waPulse {
+    0%, 100% { box-shadow: 0 4px 24px rgba(37,211,102,0.4); }
+    50% { box-shadow: 0 4px 32px rgba(37,211,102,0.65), 0 0 0 8px rgba(37,211,102,0.08); }
+  }
+
+  /* ── SVG ILLUSTRATIONS ── */
+  .svg-faucet-chrome { fill: none; stroke: var(--chrome); stroke-width: 1.5; }
+  .svg-faucet-glow { fill: none; stroke: var(--blue-light); stroke-width: 0.5; opacity: 0.4; }
+
+  /* ── REVEAL ANIMATIONS ── */
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s, transform 0.7s; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal-left { opacity: 0; transform: translateX(-30px); transition: opacity 0.7s, transform 0.7s; }
+  .reveal-left.visible { opacity: 1; transform: translateX(0); }
+  .reveal-right { opacity: 0; transform: translateX(30px); transition: opacity 0.7s, transform 0.7s; }
+  .reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+  @media (max-width: 1024px) {
+    nav { padding: 1rem 2rem; }
+    .nav-links { display: none; }
+    #hero .hero-content { padding: 0 2rem; }
+    .hero-right { display: none; }
+    #about, #inquiry { grid-template-columns: 1fr; gap: 3rem; padding: 5rem 2rem; }
+    .about-visual { height: 320px; }
+    #products, #global, #quality, #why, #process, #testimonials { padding: 5rem 2rem; }
+    .product-grid { grid-template-columns: repeat(2,1fr); }
+    .quality-grid { grid-template-columns: repeat(2,1fr); }
+    .why-grid { grid-template-columns: repeat(2,1fr); }
+    .process-steps { grid-template-columns: repeat(4,1fr); gap: 1rem; }
+    .process-steps::after { display: none; }
+    .testi-grid { grid-template-columns: 1fr; }
+    .global-layout { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    footer { padding: 3rem 2rem 1.5rem; }
+    .hero-stats { gap: 1.5rem; flex-wrap: wrap; }
+  }
+  @media (max-width: 640px) {
+    .product-grid { grid-template-columns: 1fr; }
+    .quality-grid { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: repeat(2,1fr); }
+    .testi-grid { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr; }
+    h1 { font-size: 2.6rem; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">BHARAT<span>IMPEX</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#global">Global</a></li>
+    <li><a href="#quality">Quality</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#testimonials">Partners</a></li>
+  </ul>
+  <a href="#inquiry" class="nav-cta">Send Inquiry</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Est. 1972 · Delhi, India</div>
+    <h1>Precision Bathroom<br>Fittings <em>Crafted for</em><br>Global Markets</h1>
+    <p class="hero-sub">Manufacturers &amp; exporters of premium faucets, sanitary ware &amp; brass bathroom accessories — engineered to international standards.</p>
+    <div class="hero-buttons">
+      <a href="#products" class="btn-primary">Explore Products</a>
+      <a href="#inquiry" class="btn-outline">Send Inquiry</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num">50+</span>
+        <span class="stat-label">Years in Business</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">40+</span>
+        <span class="stat-label">Countries Served</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">1200+</span>
+        <span class="stat-label">Product SKUs</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">5M+</span>
+        <span class="stat-label">Units / Year</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <svg width="320" height="460" viewBox="0 0 320 460" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.6">
+      <!-- Faucet silhouette illustration -->
+      <line x1="160" y1="30" x2="160" y2="120" stroke="#c0c6d0" stroke-width="1.5" stroke-dasharray="4,6"/>
+      <rect x="100" y="120" width="120" height="12" rx="6" fill="#2e3035" stroke="#4a9fd4" stroke-width="0.8"/>
+      <rect x="120" y="132" width="80" height="80" rx="4" fill="#1a1c1f" stroke="#c0c6d0" stroke-width="1"/>
+      <rect x="130" y="212" width="60" height="120" rx="30" fill="#2e3035" stroke="#c0c6d0" stroke-width="1"/>
+      <circle cx="160" cy="212" r="8" fill="none" stroke="#4a9fd4" stroke-width="1.5"/>
+      <path d="M 160 332 Q 160 380 120 400" stroke="#7a8090" stroke-width="1.5" fill="none"/>
+      <ellipse cx="112" cy="406" rx="18" ry="8" fill="none" stroke="#4a9fd4" stroke-width="0.8" opacity="0.5"/>
+      <!-- Handle left -->
+      <line x1="80" y1="172" x2="100" y2="172" stroke="#c0c6d0" stroke-width="1"/>
+      <circle cx="72" cy="172" r="10" fill="#2e3035" stroke="#c0c6d0" stroke-width="1"/>
+      <!-- Handle right -->
+      <line x1="220" y1="172" x2="240" y2="172" stroke="#c0c6d0" stroke-width="1"/>
+      <circle cx="248" cy="172" r="10" fill="#2e3035" stroke="#4a9fd4" stroke-width="1"/>
+      <!-- Glow rings -->
+      <ellipse cx="160" cy="340" rx="40" ry="6" fill="none" stroke="#4a9fd4" stroke-width="0.5" opacity="0.3"/>
+      <ellipse cx="160" cy="345" rx="60" ry="8" fill="none" stroke="#4a9fd4" stroke-width="0.3" opacity="0.15"/>
+      <!-- Grid lines behind -->
+      <line x1="40" y1="100" x2="40" y2="420" stroke="#2d6fa3" stroke-width="0.3" opacity="0.3"/>
+      <line x1="280" y1="100" x2="280" y2="420" stroke="#2d6fa3" stroke-width="0.3" opacity="0.3"/>
+      <line x1="40" y1="170" x2="280" y2="170" stroke="#2d6fa3" stroke-width="0.3" opacity="0.2"/>
+      <line x1="40" y1="250" x2="280" y2="250" stroke="#2d6fa3" stroke-width="0.3" opacity="0.2"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-visual reveal-left">
+    <div class="about-img-main">
+      <svg width="100%" height="100%" viewBox="0 0 300 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="400" fill="#1a3a5c"/>
+        <text x="150" y="190" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="14" fill="rgba(192,198,208,0.5)" letter-spacing="4">MANUFACTURING</text>
+        <text x="150" y="215" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="14" fill="rgba(192,198,208,0.5)" letter-spacing="4">EXCELLENCE</text>
+        <!-- Factory abstract -->
+        <rect x="40" y="260" width="220" height="80" fill="none" stroke="rgba(74,159,212,0.2)" stroke-width="1"/>
+        <line x1="40" y1="280" x2="260" y2="280" stroke="rgba(74,159,212,0.15)" stroke-width="0.5"/>
+        <rect x="60" y="230" width="30" height="30" fill="none" stroke="rgba(192,198,208,0.15)" stroke-width="1"/>
+        <rect x="130" y="220" width="40" height="40" fill="none" stroke="rgba(192,198,208,0.15)" stroke-width="1"/>
+        <rect x="210" y="240" width="25" height="20" fill="none" stroke="rgba(192,198,208,0.15)" stroke-width="1"/>
+      </svg>
+    </div>
+    <div class="about-img-accent">
+      <svg width="100%" height="100%" viewBox="0 0 200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="250" fill="#2e3035"/>
+        <circle cx="100" cy="110" r="50" fill="none" stroke="rgba(74,159,212,0.3)" stroke-width="1"/>
+        <circle cx="100" cy="110" r="35" fill="none" stroke="rgba(192,198,208,0.2)" stroke-width="0.5"/>
+        <text x="100" y="105" text-anchor="middle" font-family="'Barlow Condensed',sans-serif" font-size="11" fill="rgba(192,198,208,0.5)" letter-spacing="3">ISO</text>
+        <text x="100" y="122" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" fill="rgba(192,198,208,0.7)">9001</text>
+        <text x="100" y="200" text-anchor="middle" font-family="'Barlow Condensed',sans-serif" font-size="9" fill="rgba(192,198,208,0.3)" letter-spacing="2">CERTIFIED</text>
+      </svg>
+    </div>
+    <div class="year-badge">
+      <span class="yr">1972</span>
+      <span class="since">Since</span>
+    </div>
+  </div>
+  <div class="about-text reveal-right">
+    <div>
+      <div class="section-eyebrow">Our Legacy</div>
+      <h2>Five Decades of<br><em>Export Excellence</em></h2>
+    </div>
+    <p class="section-lead">Founded in Delhi in 1972, Bharat Impex has grown from a local manufacturer into a globally trusted exporter of precision bathroom fittings. Our products reach bathrooms, hotels, and construction projects across four continents.</p>
+    <div class="features-grid">
+      <div class="feature-item"><div class="feature-dot"></div><div class="feature-text">Full OEM &amp; ODM capabilities</div></div>
+      <div class="feature-item"><div class="feature-dot"></div><div class="feature-text">ISO 9001 certified processes</div></div>
+      <div class="feature-item"><div class="feature-dot"></div><div class="feature-text">In-house R&amp;D &amp; design team</div></div>
+      <div class="feature-item"><div class="feature-dot"></div><div class="feature-text">40+ countries export network</div></div>
+      <div class="feature-item"><div class="feature-dot"></div><div class="feature-text">Chrome, PVD &amp; matte finishes</div></div>
+      <div class="feature-item"><div class="feature-dot"></div><div class="feature-text">Third-party lab testing</div></div>
+    </div>
+    <div><a href="#inquiry" class="btn-primary">Partner With Us</a></div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="products-header reveal">
+    <div>
+      <div class="section-eyebrow">Product Range</div>
+      <h2 style="color:var(--chrome-light)">Engineered for<br><em>Lasting Performance</em></h2>
+    </div>
+    <a href="#inquiry" class="btn-outline">Request Catalogue</a>
+  </div>
+  <div class="product-grid reveal">
+    <!-- Card 1 -->
+    <div class="product-card">
+      <div class="product-visual" style="background:linear-gradient(135deg,#1a2535,#0d1520)">
+        <svg width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.7">
+          <rect x="50" y="10" width="20" height="60" rx="10" fill="none" stroke="#c0c6d0" stroke-width="1.2"/>
+          <rect x="40" y="70" width="40" height="10" rx="5" fill="#2e3035" stroke="#c0c6d0" stroke-width="0.8"/>
+          <rect x="45" y="80" width="30" height="50" rx="3" fill="#1a1c1f" stroke="#c0c6d0" stroke-width="0.8"/>
+          <line x1="60" y1="130" x2="60" y2="150" stroke="#7a8090" stroke-width="1.5"/>
+          <ellipse cx="60" cy="152" rx="12" ry="4" fill="none" stroke="#4a9fd4" stroke-width="0.6" opacity="0.6"/>
+        </svg>
+      </div>
+      <div class="product-overlay"></div>
+      <div class="product-info">
+        <div class="product-cat">Category 01</div>
+        <div class="product-name">Wall-Mounted<br>Faucets</div>
+        <div class="product-cta">Inquire Now</div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="product-card">
+      <div class="product-visual" style="background:linear-gradient(135deg,#0e1f30,#081524)">
+        <svg width="160" height="130" viewBox="0 0 160 130" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.7">
+          <path d="M20 80 Q80 20 140 80" stroke="#c0c6d0" stroke-width="1.5" fill="none"/>
+          <rect x="70" y="75" width="20" height="40" rx="10" fill="#2e3035" stroke="#c0c6d0" stroke-width="1"/>
+          <circle cx="80" cy="80" r="6" fill="none" stroke="#4a9fd4" stroke-width="1"/>
+          <line x1="20" y1="100" x2="20" y2="120" stroke="#c0c6d0" stroke-width="1.5"/>
+          <line x1="140" y1="100" x2="140" y2="120" stroke="#c0c6d0" stroke-width="1.5"/>
+          <rect x="12" y="115" width="16" height="8" rx="4" fill="#2e3035" stroke="#c0c6d0" stroke-width="0.8"/>
+          <rect x="132" y="115" width="16" height="8" rx="4" fill="#2e3035" stroke="#4a9fd4" stroke-width="0.8"/>
+        </svg>
+      </div>
+      <div class="product-overlay"></div>
+      <div class="product-info">
+        <div class="product-cat">Category 02</div>
+        <div class="product-name">Basin Mixers<br>&amp; Pillar Cocks</div>
+        <div class="product-cta">Inquire Now</div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="product-card">
+      <div class="product-visual" style="background:linear-gradient(135deg,#1a1c30,#0d0d20)">
+        <svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.7">
+          <circle cx="70" cy="50" r="30" fill="none" stroke="#c0c6d0" stroke-width="1.2"/>
+          <circle cx="70" cy="50" r="18" fill="#1a1c1f" stroke="#4a9fd4" stroke-width="0.8"/>
+          <line x1="70" y1="80" x2="70" y2="110" stroke="#c0c6d0" stroke-width="2"/>
+          <rect x="55" y="108" width="30" height="6" rx="3" fill="#2e3035" stroke="#c0c6d0" stroke-width="0.8"/>
+          <line x1="50" y1="50" x2="30" y2="50" stroke="#4a9fd4" stroke-width="0.8" stroke-dasharray="3,3"/>
+          <line x1="90" y1="50" x2="110" y2="50" stroke="#4a9fd4" stroke-width="0.8" stroke-dasharray="3,3"/>
+        </svg>
+      </div>
+      <div class="product-overlay"></div>
+      <div class="product-info">
+        <div class="product-cat">Category 03</div>
+        <div class="product-name">Shower Systems<br>&amp; Hand Showers</div>
+        <div class="product-cta">Inquire Now</div>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="product-card">
+      <div class="product-visual" style="background:linear-gradient(135deg,#1c1a18,#0d0c0a)">
+        <svg width="140" height="120" viewBox="0 0 140 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.7">
+          <rect x="10" y="40" width="120" height="60" rx="4" fill="none" stroke="#c0c6d0" stroke-width="1"/>
+          <line x1="10" y1="60" x2="130" y2="60" stroke="#4a9fd4" stroke-width="0.5" opacity="0.5"/>
+          <circle cx="35" cy="50" r="4" fill="none" stroke="#c0c6d0" stroke-width="1"/>
+          <circle cx="55" cy="50" r="4" fill="none" stroke="#c0c6d0" stroke-width="1"/>
+          <rect x="20" y="65" width="100" height="25" rx="2" fill="#2e3035" stroke="rgba(192,198,208,0.2)" stroke-width="0.5"/>
+          <line x1="70" y1="40" x2="70" y2="20" stroke="#7a8090" stroke-width="1.5"/>
+          <circle cx="70" cy="15" r="6" fill="#2e3035" stroke="#c0c6d0" stroke-width="1"/>
+        </svg>
+      </div>
+      <div class="product-overlay"></div>
+      <div class="product-info">
+        <div class="product-cat">Category 04</div>
+        <div class="product-name">Bath Accessories<br>&amp; Towel Rails</div>
+        <div class="product-cta">Inquire Now</div>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="product-card">
+      <div class="product-visual" style="background:linear-gradient(135deg,#1a1020,#100a18)">
+        <svg width="120" height="140" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.7">
+          <path d="M30 100 L30 40 Q30 20 60 20 Q90 20 90 40 L90 100" stroke="#c0c6d0" stroke-width="1.2" fill="none"/>
+          <path d="M20 100 L100 100 L95 120 L25 120 Z" fill="#1a1c1f" stroke="#c0c6d0" stroke-width="1"/>
+          <circle cx="60" cy="60" r="15" fill="none" stroke="#4a9fd4" stroke-width="1"/>
+          <text x="60" y="65" text-anchor="middle" font-family="'Barlow Condensed',sans-serif" font-size="10" fill="#4a9fd4" letter-spacing="1">BRASS</text>
+        </svg>
+      </div>
+      <div class="product-overlay"></div>
+      <div class="product-info">
+        <div class="product-cat">Category 05</div>
+        <div class="product-name">Brass Fittings<br>&amp; Pipe Connectors</div>
+        <div class="product-cta">Inquire Now</div>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="product-card">
+      <div class="product-visual" style="background:linear-gradient(135deg,#0a1a0a,#051205)">
+        <svg width="150" height="120" viewBox="0 0 150 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.7">
+          <path d="M20 90 Q75 30 130 90" stroke="#c0c6d0" stroke-width="1.2" fill="none"/>
+          <path d="M10 90 L140 90 L140 105 Q75 115 10 105 Z" fill="#1a1c1f" stroke="#c0c6d0" stroke-width="1"/>
+          <circle cx="75" cy="90" r="10" fill="#2e3035" stroke="#4a9fd4" stroke-width="1"/>
+          <line x1="75" y1="80" x2="75" y2="50" stroke="#7a8090" stroke-width="1.2"/>
+          <ellipse cx="75" cy="47" rx="8" ry="5" fill="#2e3035" stroke="#c0c6d0" stroke-width="0.8"/>
+        </svg>
+      </div>
+      <div class="product-overlay"></div>
+      <div class="product-info">
+        <div class="product-cat">Category 06</div>
+        <div class="product-name">Sanitary Ware<br>&amp; CP Fittings</div>
+        <div class="product-cta">Inquire Now</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GLOBAL PRESENCE -->
+<section id="global">
+  <div class="reveal">
+    <div class="section-eyebrow">Our Location</div>
+    <h2 style="color:var(--chrome-light)">Find Us in <em>Sadar Bazaar,</em><br>New Delhi</h2>
+  </div>
+  <div class="global-layout">
+    <div class="map-container reveal-left" style="height:420px;border:1px solid rgba(74,159,212,0.2);overflow:hidden;position:relative;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0403491479033!2d77.21273049999999!3d28.6585105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd72b0c00001%3A0x1395631c1a6e093f!2sBharat%20Impex!5e0!3m2!1sen!2sin!4v1779474916419!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;display:block;filter:grayscale(0.3) contrast(1.05);"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="region-list reveal-right">
+      <div class="region-item" style="border-left-color:var(--blue-light)">
+        <div class="region-name">📍 Address</div>
+        <div class="region-desc">3706, Gali Barna, Bara Tooti,<br>Sadar Bazaar, New Delhi — 110006, India</div>
+      </div>
+      <div class="region-item">
+        <div class="region-name">📞 Phone &amp; WhatsApp</div>
+        <div class="region-desc"><a href="tel:+919871148880" style="color:var(--blue-light);text-decoration:none;">+91 98711 48880</a></div>
+      </div>
+      <div class="region-item">
+        <div class="region-name">🌐 Website</div>
+        <div class="region-desc"><a href="http://www.bharatimpex.com" target="_blank" style="color:var(--blue-light);text-decoration:none;">www.bharatimpex.com</a></div>
+      </div>
+      <div class="region-item">
+        <div class="region-name">🕐 Business Hours</div>
+        <div class="region-desc">Monday – Saturday: 10:00 am – 6:00 pm IST</div>
+      </div>
+      <div class="region-item">
+        <div class="region-name">⭐ Google Rating</div>
+        <div class="region-desc">4.8 / 5 stars · Verified Exporter on Google</div>
+      </div>
+      <a href="https://wa.me/919871148880" target="_blank" class="whatsapp-btn" style="margin-top:0.5rem;display:flex;align-items:center;gap:0.7rem;width:100%;justify-content:center;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        Message Us on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- QUALITY -->
+<section id="quality">
+  <div class="reveal">
+    <div class="section-eyebrow">Manufacturing &amp; Quality</div>
+    <h2>Precision at<br><em>Every Stage</em></h2>
+  </div>
+  <div class="quality-grid reveal">
+    <div class="quality-card">
+      <div class="q-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2d6fa3" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      </div>
+      <div class="q-title">Brass Casting</div>
+      <div class="q-desc">High-grade brass alloy casting using precision gravity-die and pressure die methods for superior density and finish.</div>
+    </div>
+    <div class="quality-card">
+      <div class="q-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2d6fa3" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      </div>
+      <div class="q-title">Chrome Plating</div>
+      <div class="q-desc">Multi-layer electroplating process — copper, nickel and chrome — delivering 10-micron finish that resists tarnish and corrosion.</div>
+    </div>
+    <div class="quality-card">
+      <div class="q-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2d6fa3" stroke-width="1.5"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      </div>
+      <div class="q-title">Quality Control</div>
+      <div class="q-desc">100% pressure testing, dimensional checks, and visual inspection at each production stage before final dispatch.</div>
+    </div>
+    <div class="quality-card">
+      <div class="q-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2d6fa3" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      </div>
+      <div class="q-title">Certifications</div>
+      <div class="q-desc">ISO 9001:2015, CE marking, RoHS compliant, BIS licensed. Third-party lab testing available on request.</div>
+    </div>
+  </div>
+  <div class="certs-bar reveal">
+    <div class="cert-label">Certifications &amp; Standards</div>
+    <div class="cert-badges">
+      <div class="cert-badge">ISO 9001:2015</div>
+      <div class="cert-badge">CE Marked</div>
+      <div class="cert-badge">BIS Licensed</div>
+      <div class="cert-badge">RoHS Compliant</div>
+      <div class="cert-badge">WRAS Approved</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="reveal">
+    <div class="section-eyebrow">Why Bharat Impex</div>
+    <h2 style="color:var(--chrome-light)">Six Reasons Global<br><em>Buyers Choose Us</em></h2>
+  </div>
+  <div class="why-grid reveal">
+    <div class="why-item"><div class="why-num">01</div><div class="why-title">OEM Manufacturing</div><div class="why-desc">Full private-label manufacturing. Bring your designs or use ours. Samples within 15 days.</div></div>
+    <div class="why-item"><div class="why-num">02</div><div class="why-title">Export Expertise</div><div class="why-desc">50+ years of export documentation, customs compliance, and logistics management.</div></div>
+    <div class="why-item" style="border-right:1px solid rgba(192,198,208,0.08)"><div class="why-num">03</div><div class="why-title">International Standards</div><div class="why-desc">CE, ISO, and BIS certified products engineered to meet regulatory requirements in 40+ markets.</div></div>
+    <div class="why-item"><div class="why-num">04</div><div class="why-title">Reliable Logistics</div><div class="why-desc">Partnerships with leading freight forwarders. FOB, CIF, CFR terms available.</div></div>
+    <div class="why-item"><div class="why-num">05</div><div class="why-title">Competitive Pricing</div><div class="why-desc">Direct factory pricing with no middlemen. Significant savings on MOQ orders.</div></div>
+    <div class="why-item" style="border-right:1px solid rgba(192,198,208,0.08)"><div class="why-num">06</div><div class="why-title">Customisation</div><div class="why-desc">Custom finishes, packaging, and branding. PVD gold, matte black, rose gold available.</div></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="reveal">
+    <div class="section-eyebrow">How We Work</div>
+    <h2>From Inquiry to<br><em>Your Warehouse</em></h2>
+  </div>
+  <div class="process-steps reveal">
+    <div class="process-step"><div class="step-dot">1</div><div class="step-label">Inquiry Received</div></div>
+    <div class="process-step"><div class="step-dot">2</div><div class="step-label">Product Selection</div></div>
+    <div class="process-step"><div class="step-dot">3</div><div class="step-label">Samples Dispatched</div></div>
+    <div class="process-step"><div class="step-dot">4</div><div class="step-label">Production Order</div></div>
+    <div class="process-step"><div class="step-dot">5</div><div class="step-label">Quality Inspection</div></div>
+    <div class="process-step"><div class="step-dot">6</div><div class="step-label">Export Packaging</div></div>
+    <div class="process-step"><div class="step-dot">7</div><div class="step-label">Global Shipment</div></div>
+  </div>
+  <div style="margin-top:3rem;padding:2rem 2.5rem;background:var(--dark);display:flex;gap:3rem;align-items:center;flex-wrap:wrap;" class="reveal">
+    <div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:var(--chrome-light)">15 Days</div>
+      <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--chrome-dim)">Sample Lead Time</div>
+    </div>
+    <div style="width:1px;height:3rem;background:rgba(192,198,208,0.12)"></div>
+    <div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:var(--chrome-light)">30–45 Days</div>
+      <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--chrome-dim)">Production Lead Time</div>
+    </div>
+    <div style="width:1px;height:3rem;background:rgba(192,198,208,0.12)"></div>
+    <div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:var(--chrome-light)">24 Hours</div>
+      <div style="font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--chrome-dim)">Inquiry Response</div>
+    </div>
+    <a href="#inquiry" class="btn-primary" style="margin-left:auto">Start Now</a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="reveal">
+    <div class="section-eyebrow">Buyer Reviews</div>
+    <h2 style="color:var(--chrome-light)">Trusted by International<br><em>Procurement Teams</em></h2>
+  </div>
+  <div class="testi-grid reveal">
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <div class="testi-quote">"Bharat Impex has been our preferred supplier for hotel bathroom fittings for over 6 years. Consistent quality, reliable delivery, and excellent documentation for customs."</div>
+      <div class="testi-author">
+        <div class="testi-avatar">AH</div>
+        <div><div class="testi-name">Ahmed Al-Hashimi</div><div class="testi-country">Dubai, UAE — Hotel Procurement Manager</div></div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <div class="testi-quote">"We've sourced their single-lever mixers and PVD-finish taps for two years. The quality rivals European brands at a fraction of the price. Very professional team."</div>
+      <div class="testi-author">
+        <div class="testi-avatar">MW</div>
+        <div><div class="testi-name">Michael Weber</div><div class="testi-country">Hamburg, Germany — Sanitary Ware Distributor</div></div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <div class="testi-quote">"Excellent OEM partner. They manufactured our branded line with our logo and custom packaging. Samples were perfect, and production batches matched exactly."</div>
+      <div class="testi-author">
+        <div class="testi-avatar">JN</div>
+        <div><div class="testi-name">James Njoroge</div><div class="testi-country">Nairobi, Kenya — Hardware Importer</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INQUIRY -->
+<section id="inquiry">
+  <div class="inquiry-text reveal-left">
+    <div class="section-eyebrow">Get In Touch</div>
+    <h2>Start Your<br><em>Export Partnership</em></h2>
+    <p class="section-lead">Send us your requirements and our export team will respond within 24 hours with product details, pricing, and a free sample offer.</p>
+    <div style="margin-top:2rem;display:flex;flex-direction:column;gap:0.7rem;">
+      <div class="contact-item"><div class="contact-dot"></div>3706, Gali Barna, Bara Tooti, Sadar Bazaar, New Delhi — 110006</div>
+      <div class="contact-item"><div class="contact-dot"></div>098711 48880 &nbsp;|&nbsp; export@bharatimpex.com</div>
+      <div class="contact-item"><div class="contact-dot"></div>WhatsApp: +91 98711 48880</div>
+    </div>
+    <div style="margin-top:2rem;">
+      <a href="https://wa.me/919871148880" class="whatsapp-btn" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+    <div class="response-note">
+      ⚡ Average response time: under 4 business hours. A dedicated export executive will be assigned to your inquiry.
+    </div>
+  </div>
+  <div class="inquiry-form reveal-right">
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Full Name *</label>
+        <input type="text" class="form-input" placeholder="Your name">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Company *</label>
+        <input type="text" class="form-input" placeholder="Company name">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Country *</label>
+        <select class="form-select">
+          <option value="">Select country</option>
+          <option>United Arab Emirates</option>
+          <option>Saudi Arabia</option>
+          <option>United Kingdom</option>
+          <option>Germany</option>
+          <option>United States</option>
+          <option>Australia</option>
+          <option>Nigeria</option>
+          <option>Kenya</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email *</label>
+        <input type="email" class="form-input" placeholder="your@email.com">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Product Interest</label>
+      <select class="form-select">
+        <option value="">Select product category</option>
+        <option>Faucets &amp; Taps</option>
+        <option>Basin Mixers</option>
+        <option>Shower Systems</option>
+        <option>Bath Accessories</option>
+        <option>Brass Fittings</option>
+        <option>Sanitary Ware</option>
+        <option>OEM / Private Label</option>
+        <option>Multiple Categories</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Message</label>
+      <textarea class="form-textarea" placeholder="Tell us about your requirements — quantity, specifications, target market..."></textarea>
+    </div>
+    <div class="form-actions">
+      <button class="btn-primary" type="button" onclick="alert('Thank you! We will respond within 24 hours.')">Submit Inquiry</button>
+      <a href="#" class="catalogue-link">↓ Download Catalogue (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <h3>BHARAT IMPEX</h3>
+      <p>Manufacturers and exporters of precision bathroom fittings since 1972. Your global partner for chrome plated, PVD, and specialty brass sanitary products.</p>
+      <div style="margin-top:1.2rem;display:flex;gap:0.8rem;flex-wrap:wrap;">
+        <div class="cert-badge" style="font-size:0.65rem;padding:0.3rem 0.7rem;">ISO 9001</div>
+        <div class="cert-badge" style="font-size:0.65rem;padding:0.3rem 0.7rem;">CE Marked</div>
+        <div class="cert-badge" style="font-size:0.65rem;padding:0.3rem 0.7rem;">BIS</div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#products">Faucets &amp; Taps</a></li>
+        <li><a href="#products">Basin Mixers</a></li>
+        <li><a href="#products">Shower Systems</a></li>
+        <li><a href="#products">Bath Accessories</a></li>
+        <li><a href="#products">Brass Fittings</a></li>
+        <li><a href="#products">Sanitary Ware</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#quality">Manufacturing</a></li>
+        <li><a href="#global">Export Markets</a></li>
+        <li><a href="#process">How We Work</a></li>
+        <li><a href="#inquiry">Contact</a></li>
+        <li><a href="#">Download Catalogue</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <div class="footer-contact">
+        <div class="footer-contact-item"><strong>Address</strong><br>3706, Gali Barna, Bara Tooti, Sadar Bazaar, New Delhi — 110006</div>
+        <div class="footer-contact-item"><strong>Export Enquiries</strong><br>export@bharatimpex.com</div>
+        <div class="footer-contact-item"><strong>Phone</strong><br>098711 48880</div>
+        <div class="footer-contact-item"><strong>Hours</strong><br>Mon–Sat 10am–6pm IST</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 Bharat Impex, Delhi, India. All rights reserved.</div>
+    <div class="footer-social">
+      <a href="#" class="social-link">LI</a>
+      <a href="#" class="social-link">FB</a>
+      <a href="#" class="social-link">YT</a>
+      <a href="#" class="social-link">WA</a>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/919871148880" class="float-wa" target="_blank" title="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.86L.072 23.928l6.246-1.638A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.366l-.359-.213-3.712.974.991-3.617-.234-.372A9.818 9.818 0 0112 2.182c5.42 0 9.818 4.397 9.818 9.818 0 5.42-4.397 9.818-9.818 9.818z"/></svg>
+</a>
+
+<script>
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 60);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+  reveals.forEach(el => observer.observe(el));
+
+  // Nav scroll effect
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+      nav.style.background = 'rgba(10,10,10,0.97)';
+      nav.style.paddingTop = '0.8rem';
+      nav.style.paddingBottom = '0.8rem';
+    } else {
+      nav.style.background = 'rgba(10,10,10,0.85)';
+      nav.style.paddingTop = '1.2rem';
+      nav.style.paddingBottom = '1.2rem';
+    }
+  });
+
+  // Hero stat counter animation
+  function animateCount(el, target, suffix) {
+    let current = 0;
+    const step = target / 50;
+    const timer = setInterval(() => {
+      current += step;
+      if (current >= target) {
+        current = target;
+        clearInterval(timer);
+      }
+      el.textContent = Math.round(current) + suffix;
+    }, 30);
+  }
+  setTimeout(() => {
+    animateCount(document.querySelectorAll('.stat-num')[0], 50, '+');
+    animateCount(document.querySelectorAll('.stat-num')[1], 40, '+');
+    animateCount(document.querySelectorAll('.stat-num')[2], 1200, '+');
+  }, 600);
+</script>
+</body>
+</html>
